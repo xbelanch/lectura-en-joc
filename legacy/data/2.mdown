@@ -1,0 +1,316 @@
+---
+title: 'Pas 2. El totalitarisme. Només una història passada?'
+...
+
+<!--
+ ███▄ ▄███▓ ██▓ ███▄    █  ██▓ ▒█████   ██▓███    ██████ 
+▓██▒▀█▀ ██▒▓██▒ ██ ▀█   █ ▓██▒▒██▒  ██▒▓██░  ██▒▒██    ▒ 
+▓██    ▓██░▒██▒▓██  ▀█ ██▒▒██▒▒██░  ██▒▓██░ ██▓▒░ ▓██▄   
+▒██    ▒██ ░██░▓██▒  ▐▌██▒░██░▒██   ██░▒██▄█▓▒ ▒  ▒   ██▒
+▒██▒   ░██▒░██░▒██░   ▓██░░██░░ ████▓▒░▒██▒ ░  ░▒██████▒▒
+░ ▒░   ░  ░░▓  ░ ▒░   ▒ ▒ ░▓  ░ ▒░▒░▒░ ▒▓▒░ ░  ░▒ ▒▓▒ ▒ ░
+░  ░      ░ ▒ ░░ ░░   ░ ▒░ ▒ ░  ░ ▒ ▒░ ░▒ ░     ░ ░▒  ░ ░
+░      ░    ▒ ░   ░   ░ ░  ▒ ░░ ░ ░ ▒  ░░       ░  ░  ░  
+       ░    ░           ░  ░      ░ ░                 ░  
+--> <!DOCTYPE html>
+<header class="hero-image" role="banner" style="background-image: url(../img/background-header-pas-2.jpg);">
+<span class="menu-trigger writer-icon animated fadeInDown"> <span
+class="bar"></span> <span class="bar"></span> <span
+class="bar"></span></span>
+<!-- if the user has javascript disabled they can still use the menu -->
+<noscript>
+<div class="no-js-menu">
+
+### Índex del curs
+
+-   [Portada](../index.html)
+-   [Pas 1. Presentació](1.html)
+-   [Pas 2. El totalitarisme. Només una història passada?](#)
+-   [Pas 3. Què és el totalitarisme?](data/3.html)
+-   [Pas 4. Manifestacions històriques del totalitarisme](data/4.html)
+-   [Pas 5. Totalitarisme i Drets Humans](data/5.html)
+-   [Pas 6. Actituds totalitàries.](data/6.html)
+-   [Pas 7. Pendent de títol](data/7.html)
+-   [Pas 8. Projecte](data/8.html)
+
+</div>
+
+</noscript>
+<!-- end no script -->
+<div id="menu-target">
+
+### Índex del curs
+
+-   [Portada](../index.html)
+-   [Pas 1. Presentació](1.html)
+-   [Pas 2. El totalitarisme. Només una història passada?](#)
+-   [Pas 3. Què és el totalitarisme?](data/3.html)
+-   [Pas 4. Manifestacions històriques del totalitarisme](data/4.html)
+-   [Pas 5. Totalitarisme i Drets Humans](data/5.html)
+-   [Pas 6. Actituds totalitàries.](data/6.html)
+-   [Pas 7. Pendent de títol](data/7.html)
+-   [Pas 8. Projecte](data/8.html)
+
+</div>
+
+</header>
+<!-- /container --> <main class="container">
+<div class="row">
+
+<div class="col-xs-12 single-content">
+
+<!--
+                <p class="meta">
+                    <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
+                </p>
+            -->
+Pas 2. El totalitarisme. Només una història passada? {#second-step}
+====================================================
+
+El totalitarisme és un fenomen històric definitivament superat?
+
+Quan ens enfrontem a la barbàrie, sempre sembla que sigui cosa dels
+*Altres* i no pas nostra, no pas de *Nosaltres*. Cosa d’estrangers o
+cosa d’altres temps. El totalitarisme pot semblar un fenomen històric
+definitivament superat, un assumpte dels llibres d’història però no pas
+un problema d’avui.
+
+Llegeix l’última frase d’una novel·la sobre l’Holocaust que va esdevenir
+un best-seller mundial : «I així acaba la història de Bruno i la seva
+família. Tot això va passar fa molt, molt de temps i mai no podria
+tornar a passar res de semblant. A hores d’ara no» (John Boyne, *El nen
+amb el pijama de ratlles*. 2006).
+
+Un final solemne i ben sorprenent si mirem el passat i el present:
+
+</div>
+
+<div id="carousel-example-generic" class="carousel slide"
+data-ride="carousel">
+
+<!-- Indicators --> <!--
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                        
+                    </ol>
+                    --> <!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+
+<div class="item active">
+
+![](img/1.png)
+<div class="carousel-caption">
+
+### Anul·lació de la llibertat individual
+
+En el totalitarisme la llibertat individual dels ciutadans no té cap
+valor: és el líder del partit qui organitza directament tant la vida
+pública com la privada. Tot està en funció dels desitjos i obsessions
+del governant. En l’ambit públic és significativa l’exaltació
+col·lectiva del líder mitjançant actes multitudinaris. Fins i tot els
+reductes més íntims de la vida dels ciutadans hi resten subordinats. No
+s’admet ni la crítica ni la pluralitat.
+
+</div>
+
+</div>
+
+<div class="item">
+
+![](img/2.png)
+<div class="carousel-caption">
+
+### El culte al líder
+
+En el totalitarisme totes les activitats, totes les dimensions de la
+vida, siguin d’ordre social, polític, econòmic, intel·lectual, cultural
+i moral es troben subordinades als interessos i a la ideologia del
+líder, un ésser únic i messiànic.
+
+</div>
+
+</div>
+
+<div class="item">
+
+![](img/3.png)
+<div class="carousel-caption">
+
+### No hi ha text?
+
+WEB : imatge 3 de Kim Jong-un dubtem entre aquestes dues
+
+</div>
+
+</div>
+
+<div class="item">
+
+![](img/4.png)
+<div class="carousel-caption">
+
+### Menyspreu per les vides humanes
+
+En un sentit ampli, el terme totalitarisme fa referència a aquells
+règims polítics que no accepten el sistema democràtic i no respecten els
+drets humans bàsics. La suposada bellesa d’un ideal arriba a justificar
+qualsevol mitjà per assolir-lo, fins i tot els més inhumans i cruels.
+Comparada amb la noblesa de la idea, les vides humanes són irrellevants.
+Això es va manifestar de manera brutal el segle passat en el feixisme i
+el comunisme a través dels konzentrationslager (camps de concentració)
+alemanys i el Gulag soviètic.
+
+</div>
+
+</div>
+
+<div class="item">
+
+![](img/5.png)
+<div class="carousel-caption">
+
+### Menyspreu per les vides humanes
+
+El text és el mateix que el de la imatge 4?.
+
+</div>
+
+</div>
+
+<div class="item">
+
+![](img/6.png)
+<div class="carousel-caption">
+
+### La inhumanitat del totalitarisme
+
+La fotografia, trobada en l’àlbum de records d’un antic membre de la
+Schutzstaffel (escamots de protecció nazis o SS), mostra un soldat de la
+SS apuntant al cap d’una dona que, encoixida i donant l’esquena al
+botxí, abraça amb força la seva filla, una nena de pocs anys que estreny
+la careta contra la de la seva mare. Víctimes anònimes de la barbàrie,
+mare i filla semblaven voler protegir-se mútuament, com si intentessin
+esborrar la imminència de la tragèdia. (Font: domini públic, autor
+desconegut)
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Controls --> [<span class="glyphicon glyphicon-chevron-left"
+aria-hidden="true"></span> <span
+class="sr-only">Anterior</span>](#carousel-example-generic) [<span
+class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Següent</span>](#carousel-example-generic)
+
+</div>
+
+Segur que t’horroritzes de veure segons quines imatges, i més quan es
+constata que no és una història d’un passat remot. Per això, un es
+pregunta quina mena de persones pot participar i fer possibles aquests
+actes.
+
+Si hem de fer cas de la imatge del camp de concentració nazi, segur que
+pensaràs que actes com aquests són obra d’autèntics monstres morals, de
+fanàtics deshumanitzats incapaços d’experimentar sentiments tan bàsics
+com l’afecte, la compassió o l’empatia. Sàdics obsessionats pel poder i
+indiferents a la feblesa o al patiment aliè. Homes, per tant, totalment
+diferents de nosaltres.
+
+Ara, però, mira’t el vídeo
+
+<!-- media -->
+<div class="embed-responsive embed-responsive-16by9">
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/KC9XfcJFeOM" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<small>????? Font: [?????]()</small>
+
+<!-- .media -->
+I escolta el podcast següent. Recull un fragment d’una carta que un dels
+més estrets col·laboradors de Hitler, Rudolf Hess, va escriure a la
+presó d’Spandau, on cumplia condemna a cadena perpètua per la seva
+responsabilitat en l’holocaust. En la carta, dirigida a la seva dona,
+explica amb nostàlgia el profund sentiment de respecte a la naturalesa i
+amor als animals que Adolf Hitler i ell mateix compartien (AAVV. Hitler
+y los animales. Barcelona, Ediciones BAU, 1976)
+
+.
+Què mostra el vídeo? De qui i de què parla el text? A quins sentiments
+apel·len aquests testimonis? Et semblen persones que viuen una
+quotidianitat semblant a la de la majoria de ciutadans o són monstres
+deshumanitzats?
+
+El fet, irreflexiu, de considerar-nos immunes al virus de la barbàrie
+perquè la percebem remota o excepcional potser ens converteix,
+justament, en més vulnerables… Els responsables directes de l’holocaust
+i els centenars de milers de persones que hi van col·laborar (ja sigui
+activament o per passivitat còmplice) són persones sense sentiments? Són
+persones realment tan diferents de nosaltres?
+
+### Què en diu el pensament filosòfic?
+
+Primo Levi (1919-1987), escriptor italià que va ser presoner el 1944
+durant deu mesos al camp de concentració d’Auschwitz, al seu llibre [Si
+això és un
+home](https://ca.wikipedia.org/wiki/Si_aix%C3%B2_%C3%A9s_un_home),
+publicat l’any 1947 recorda que
+
+> “ […] quan Hitler o Mussolini parlaven públicament la gent se’ls
+> creia, els aplaudia, els adorava com a déus. Eren líders carismàtics,
+> tenien un poder secret de seducció que no provenia de la credibilitat
+> o de l’encert de les coses que deien sinó de la manera suggestiva amb
+> què les deien…milions de fidels els van exalçar i seguir fins la mort.
+> Cal recordar que aquests fidels, i entre aquests també els diligents
+> executors d’ordres inhumanes, no eren esbirros consumats, o eren (tret
+> de poques excepcions) monstres. Eren homes qualssevol. De monstres,
+> n’hi ha, però són massa pocs perquè siguin realment perillosos; són
+> més perillosos els homes corrents, els funcionaris disposats a creure
+> i a obeir sense discutir […]” “ Ara, cap home normal podrà mai
+> identificar-se amb Hitler, Himmler, Goebels, Eichman i una infinitat
+> d’altres. Són fets difícilment comparables amb els més cruels de la
+> lluita biològica per la supervivència. En la guerra podem reconèixer
+> aquesta lluita; però Auschwitz no té res a veure amb la guerra. La
+> guerra és un fet terrible de sempre: és blasfemable però és en
+> nosaltres, té una racionalitat, la “comprenem”.” Levi, P. Si això és
+> un home. Barcelona, LaButxaca, 2013, p. 277-280
+
+Podem estar plenament segurs que, donades les circumstàncies, nosaltres
+mai no hi participaríem? Podem assegurar que nosaltres estem fora de
+perill de caure novament en la barbàrie totalitària? Podem estar segurs
+d’haver pres un antídot realment efectiu?
+
+</div>
+
+<!-- main-content/col -->
+</div>
+<!--/row --> </main>
+<footer class="single text-center">
+<div class="content-footer">
+
+[Vés al següent pas del curs](3.html)
+
+Pas 3. Què és el totalitarisme? {style="color: white"}
+===============================
+
+</div>
+
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+<script src="../js/vendor/jquery.jpanelmenu.min.js"></script>
+<script src="../js/vendor/bootstrap.min.js"></script>
+<script src="../js/vendor/bootstrap-tour.min.js"></script>
+<script src="../js/vendor/fastclick.min.js"></script>
+<script src="../js/main.js"></script>

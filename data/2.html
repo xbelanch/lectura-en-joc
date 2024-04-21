@@ -1,209 +1,220 @@
 <!--
-⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⠄⠄⣀⠠⣴⣶⣾⣿⣶⣄⡀⣀⣠⣤⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⢰⣿⣿⣿⣿⣿⣯⣭⡛⠿⡇⢚⣽⣿⣟⡻⡆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⣠⣾⣸⣿⣿⣒⡹⠟⢛⣉⠐⢖⢃⣵⡖⠂⠒⠲⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⣰⣿⣿⣿⣿⣿⡇⡐⣫⣿⣿⣷⡿⣠⡻⢿⣾⣯⣶⡤⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⣿⣿⣿⣿⣥⡿⢃⠛⣲⢉⣩⣭⠬⠭⠭⠥⠬⠭⠽⠜⠆⣦⠄⠄⠄⠄⠄⠄⠄⠄
-⣿⣿⣿⣿⣿⡇⣿⠄⡇⣴⣰⢰⡇⣿⠘⣧⢹⡆⠇⠃⢸⣸⡇⠄⠄⠄⡜⣷⡰⡄
-⣿⣿⣿⣿⣿⡇⢻⣀⣇⡉⡍⡄⣶⢰⡆⢰⢰⡆⣄⡄⡴⣿⠇⢰⣦⠄⣿⣸⣧⡿
-⢿⣿⣿⣿⣿⣿⣶⣍⣻⣿⣟⣃⡛⣘⢃⢻⢘⢃⣌⣼⣿⠃⠄⡀⣿⣷⣿⣿⠟⠁
-⣔⡺⠯⣝⣛⡻⠿⠿⣿⣿⡻⣔⢷⣯⣿⣘⣿⢘⡌⣿⠏⢰⣾⣿⣿⡿⠉⠁⠄⠄
-⣿⣿⣿⣶⣭⣭⣙⣛⣒⣒⣒⣛⠿⢿⣿⣿⣿⠿⠋⠁⠄⠘⣿⣿⣿⡇⠄⠄⠄⠄
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢸⣿⣿⣿⢰⣿⣆⠄⠄⠄⢿⣿⣿⣷⠄⠄⠄⠄
-⣿⣿⣿⣿⣍⢻⣿⣿⣿⣿⣿⡇⣿⣿⣿⣿⢸⣿⣿⣷⣄⠄⢸⣿⣿⣿⡀⠄⠄⠄
-⡜⢿⣿⣿⣿⣷⣜⢿⣿⣿⣿⢱⣿⣿⣿⡧⠻⣿⣿⣿⣿⡟⣼⣿⣿⣿⡇⠄⠄⠄
-⣿⣎⢿⣿⣿⣿⣿⣷⣌⢻⡿⣿⣿⣿⡿⢡⣷⡈⠻⣿⡟⣴⣿⣿⣿⣿⠄⠄⠄⠄
--->
+    ⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+    ⠄⠄⠄⠄⠄⣀⠠⣴⣶⣾⣿⣶⣄⡀⣀⣠⣤⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+    ⠄⠄⠄⢰⣿⣿⣿⣿⣿⣯⣭⡛⠿⡇⢚⣽⣿⣟⡻⡆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+    ⠄⣠⣾⣸⣿⣿⣒⡹⠟⢛⣉⠐⢖⢃⣵⡖⠂⠒⠲⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+    ⣰⣿⣿⣿⣿⣿⡇⡐⣫⣿⣿⣷⡿⣠⡻⢿⣾⣯⣶⡤⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+    ⣿⣿⣿⣿⣥⡿⢃⠛⣲⢉⣩⣭⠬⠭⠭⠥⠬⠭⠽⠜⠆⣦⠄⠄⠄⠄⠄⠄⠄⠄
+    ⣿⣿⣿⣿⣿⡇⣿⠄⡇⣴⣰⢰⡇⣿⠘⣧⢹⡆⠇⠃⢸⣸⡇⠄⠄⠄⡜⣷⡰⡄
+    ⣿⣿⣿⣿⣿⡇⢻⣀⣇⡉⡍⡄⣶⢰⡆⢰⢰⡆⣄⡄⡴⣿⠇⢰⣦⠄⣿⣸⣧⡿
+    ⢿⣿⣿⣿⣿⣿⣶⣍⣻⣿⣟⣃⡛⣘⢃⢻⢘⢃⣌⣼⣿⠃⠄⡀⣿⣷⣿⣿⠟⠁
+    ⣔⡺⠯⣝⣛⡻⠿⠿⣿⣿⡻⣔⢷⣯⣿⣘⣿⢘⡌⣿⠏⢰⣾⣿⣿⡿⠉⠁⠄⠄
+    ⣿⣿⣿⣶⣭⣭⣙⣛⣒⣒⣒⣛⠿⢿⣿⣿⣿⠿⠋⠁⠄⠘⣿⣿⣿⡇⠄⠄⠄⠄
+    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢸⣿⣿⣿⢰⣿⣆⠄⠄⠄⢿⣿⣿⣷⠄⠄⠄⠄
+    ⣿⣿⣿⣿⣍⢻⣿⣿⣿⣿⣿⡇⣿⣿⣿⣿⢸⣿⣿⣷⣄⠄⢸⣿⣿⣿⡀⠄⠄⠄
+    ⡜⢿⣿⣿⣿⣷⣜⢿⣿⣿⣿⢱⣿⣿⣿⡧⠻⣿⣿⣿⣿⡟⣼⣿⣿⣿⡇⠄⠄⠄
+    ⣿⣎⢿⣿⣿⣿⣿⣷⣌⢻⡿⣿⣿⣿⡿⢡⣷⡈⠻⣿⡟⣴⣿⣿⣿⣿⠄⠄⠄⠄
+  -->
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Pas 2. El totalitarisme. Només una història passada? (I)</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/font-awesome.min.css">
-        <link rel="stylesheet" href="../css/main.css">
-        <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="../css/miniops.css">
-        <link rel="stylesheet" type="text/css" href="../css/bootstrap-tour.min.css">
-        <!--[if lt IE 9]>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Pas 2. Sí que llegeixes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/miniops.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-tour.min.css">
+    <!--[if lt IE 9]>
         <script src="/js/vendor/html5shiv.min.js"></script>
         <![endif]-->
-        <script src="../js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
-    </head>
-    <body>
-        <header class="hero-image" role="banner" style="background-image: url(../img/background-header-pas-2.jpg);">
-            <span class="menu-trigger writer-icon animated fadeInDown">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </span>
-            <!-- if the user has javascript disabled they can still use the menu -->
-            <noscript>
-            <div class="no-js-menu">
-                <h3>Índex del curs</h3>
-                <ul>
-                    <li><a href="../index.html">Portada</a></li>
-                    <li><a href="1.html">Pas 1. Presentació</a></li>
-                    <li><a class="active" href="#">Pas 2. El totalitarisme. Només una història passada? (I)</a></li>
-                    <li><a href="3.html">Pas 3. El totalitarisme. Només una història passada? (i II)</a></li>
-                    <li><a href="4.html">Pas 4. Què és el totalitarisme?</a></li>
-                    <li><a href="5.html">Pas 5. Manifestacions històriques del totalitarisme</a></li>
-                    <li><a href="6.html">Pas 6. Totalitarisme i drets humans</a></li>
-                    <li><a href="7.html">Pas 7. Actituds totalitàries.</a></li>
-                    <li><a href="8.html">Pas 8. Totalitarisme postmodern?</a></li>
-                    <li><a href="9.html">Pas 9. Projecte</a></li>
-                </ul>
-            </div>
-            </noscript>
-            <!-- end no script -->
-            <div id="menu-target">
-                <h3>Índex del curs</h3>
-                <ul>
-                    <li><a href="../index.html">Portada</a></li>
-                    <li><a href="1.html">Pas 1. Presentació</a></li>
-                    <li><a class="active" href="#">Pas 2. El totalitarisme. Només una història passada? (I)</a></li>
-                    <li><a href="3.html">Pas 3. El totalitarisme. Només una història passada? (i II)</a></li>
-                    <li><a href="4.html">Pas 4. Què és el totalitarisme?</a></li>
-                    <li><a href="5.html">Pas 5. Manifestacions històriques del totalitarisme</a></li>
-                    <li><a href="6.html">Pas 6. Totalitarisme i drets humans</a></li>
-                    <li><a href="7.html">Pas 7. Actituds totalitàries.</a></li>
-                    <li><a href="8.html">Pas 8. Totalitarisme postmodern?</a></li>
-                    <li><a href="9.html">Pas 9. Projecte</a></li>
-                </ul>
-            </div>
-        </header>
-        <!-- /container -->
-        <main class="container">
+         <script src="../js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
+  </head>
+  <body>
+    <header class="hero-image" role="banner" style="background-image: url(https://placehold.co/1280x800/3c3cac/fff/?text=Sí+que+llegeixes&font=lora);">
+      <!-- <header class="hero-image" role="banner" style="background-image: url(../img/background-header-pas-2.jpg);"> -->
+        <span class="menu-trigger writer-icon animated fadeInDown">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </span>
+        <!-- if the user has javascript disabled they can still use the menu -->
+        <noscript>
+          <div class="no-js-menu">
+            <h3>Índex del curs</h3>
+            <ul>
+              <li><a href="../index.html">Portada</a></li>
+              <li><a href="1.html">Pas 1. Presentació</a></li>
+              <li><a class="active" href="#">Pas 2. Sí que llegeixes</a></li>
+              <!--
+                  <li><a href="3.html">Pas 3. El totalitarisme. Només una història passada? (i II)</a></li>
+              <li><a href="4.html">Pas 4. Què és el totalitarisme?</a></li>
+              <li><a href="5.html">Pas 5. Manifestacions històriques del totalitarisme</a></li>
+              <li><a href="6.html">Pas 6. Totalitarisme i drets humans</a></li>
+              <li><a href="7.html">Pas 7. Actituds totalitàries.</a></li>
+              <li><a href="8.html">Pas 8. Totalitarisme postmodern?</a></li>
+              <li><a href="9.html">Pas 9. Projecte</a></li>
+              -->
+            </ul>
+          </div>
+        </noscript>
+        <!-- end no script -->
+        <div id="menu-target">
+          <h3>Índex del curs</h3>
+          <ul>
+            <li><a href="../index.html">Portada</a></li>
+            <li><a href="1.html">Pas 1. Presentació</a></li>
+            <li><a class="active" href="#">Pas 2. Sí que llegeixes</a></li>
+            <!--
+                <li><a href="3.html">Pas 3. El totalitarisme. Només una història passada? (i II)</a></li>
+            <li><a href="4.html">Pas 4. Què és el totalitarisme?</a></li>
+            <li><a href="5.html">Pas 5. Manifestacions històriques del totalitarisme</a></li>
+            <li><a href="6.html">Pas 6. Totalitarisme i drets humans</a></li>
+            <li><a href="7.html">Pas 7. Actituds totalitàries.</a></li>
+            <li><a href="8.html">Pas 8. Totalitarisme postmodern?</a></li>
+            <li><a href="9.html">Pas 9. Projecte</a></li>
+            -->
+          </ul>
+        </div>
+      </header>
+      <!-- /container -->
+
+      <main class="container">
         <div class="row">
+          <div class="col-md-12 single-content" style="padding-bottom: 1em;">
+
+            <h1 id="second-step">Pas 2. Sí que llegeixes</h1>
+            <p class="subtitle">Has pensat mai quants textos llegeixes al llarg del dia? Llegim molt, fins i tot quan no ho pretenem.</p>
+
+            <p>Llegim contínuament perquè ens hi va la vida: consells de seguretat, recomanacions mèdiques i de l’administració, instruccions de tot tipus, missatges al mòbil, apunts del nostre bloc de notes o els pòstits enganxats a la porta del frigorífic.</p>
+
+            <p>Hi ha qui exclamarà que això no és llegir! Tanmateix, es tracta de lectures invisibles que gairebé no tenim en compte, tot i que són clau en la manera com ens organitzem i ens relacionem en societat.</p>
+
+            <p>Hi ha altres lectures que aquí i ara, s’ajusten més a la idea que ens fem de la lectura com a activitat privada i, sobretot, a la idea que ens fem d’aquells de qui socialment hem convingut a considerar lectors.</p>
+
+            <p>La lectura adquireix diverses formes i propòsits. Hi ha qui llegeix per aprendre sobre temes concrets i no es perd la darrera publicació sobre tecnologia, art, història, moda, cuina, etc.</p>
+
+            <p>O hi ha qui troba en els llibres un motiu d’oci i de desconnexió i en devora un rere l'altre amb històries i fórmules narratives arxiconegudes que l’apassionen.</p>
+
+            <p>I, per descomptat, hi ha, també, qui llegeix des d’una altra mena de desig o voluntat: pel diàleg que manté amb les obres que va llegint i pel que aquesta lectura va fent en ell mateix… perquè no és el mateix encarar la realitat amb els ulls de cada dia que amb els de la literatura.</p>
+
+            <p>Mira-ho, si no t’ho creus:</p>
+          </div>
+        </div> <!-- end of row -->
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/CV_miniop_llegir.png" class="img-responsive">
+            <!-- <p><small>Peu d'imatge<a target="_new" href="https://foo.com">Foo.Com</a>)</small></p> -->
+          </div>
+          <div class="col-md-6">
+            <img src="./img/cv.png" class="img-responsive">
+            <p><small>Wislawa Szymborska; traducció J. M. de Sagarra. Vista amb un gra de sorra. Barcelona: Columna, 1997. (Font: <a target="_new" href="https://relatsencatala.cat/autor/elisheba/20894">Relats en català</a>)</small></p>
+          </div>
+        </div>
+
+          <div class="row">
+            <div class="col-md-12 single-content" style="padding-bottom: 1em;">
+
+              <p>Ho tenim clar doncs: sí, llegim.</p>
+              <p>Però, com llegim? Només llegeix qui sosté un llibre a les mans? O qui necessita fer-ho al fer-ho al seu lloc preferit? Sols llegeix qui ha cercat i seleccionat la seva lectura a la biblioteca o l’ha comprada a la  llibreria?</p>
+              <p>És clar que aquestes són maneres habituals de llegir, però n’hi ha d’altres?</p>
+              <p>Observar aquesta galeria d’imatges potser t’ajuda a pensar en altres possibles maneres de llegir.</p>
+            </div>
+          </div>
+
+          <!-- start carousel -->
+          <div class="row">
+            <div class="col-md-12">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="./img/galeria_1_metro_h.jpg" alt="...">
+                    <div class="carousel-caption" style="background: rgba(0, 0, 0, 0.6); margin-bottom: 10em;">
+                      <h3>Busquem un lloc determinat per llegir? O aprofitem els moments de pausa que l’atrafegada vida diària ens ofereix?</h3>
+                      <p>(Font: <a href="https://undergroundnewyorkpubliclibrary.com/post/48044859694/the-harvard-psychedelic-club-how-timothy-leary?">The Underground New York Public Library</a>)</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="./img/galeria_2_tortuga_h.jpg" alt="...">
+                    <div class="carousel-caption" style="background: rgba(0, 0, 0, 0.6); margin-bottom: 10em;">
+                      <h3>De sobte, enmig del carrer o al lloc més inesperat, hi apareix missatge insospitat: aquelles paraules i aquella idea ens parlen. Una trobada fortuïta que ens connecta amb alguna cosa nova.</h3>
+                      <p>Fotografia: Núria Terradellas.</p>
+                    </div>
+                  </div>
+
+                  <!-- "https://placehold.co/1280x720/ff00ff/fff?font=oswald&text=tpl" -->
+                  <div class="item">
+                    <img src="./img/galeria_3_dont_touch.png" alt="...">
+                    <div class="carousel-caption" style="background: rgba(0, 0, 0, 0.6); margin-bottom: 10em; border-radius: 20px;">
+                      <h3>Sabies que existeix la literatura digital? Es tracta d’obres creades en el medi digital a partir de llenguatges i formats que només poden desxifrar els dispositius electrònics. Hi poden aparèixer codis diferents: la llengua i altres codis visuals, sonors, tàctils… Aquesta mena d’obres, sovint demana una interacció mitjançant el nostre cos i les nostres decisions!</h3>
+                      <p>(Font: <a href="https://collection.eliterature.org/4/please-dont-touch-me">Please, don’t touch me!</a>)</p>
+                    </div>
+                  </div>
+                </div> <!-- end of carousel-inner -->
+
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> <!-- end of carousel -->
+            </div>
+          </div>
+
+          <div class="row">
             <div class="col-xs-12 single-content" style="padding-bottom: 1em;">
-                <!--
-                <p class="meta">
-                    <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
-                </p>
-                -->
-                <h1 id="second-step">Pas 2. El totalitarisme. Només una història passada? (I)</h1>
-                <p class="subtitle">El totalitarisme és un fenomen històric definitivament superat?</p>
-                <p>
-                    Quan ens enfrontem a la barbàrie, sempre sembla que sigui cosa dels <em>altres</em> i no pas nostra, no pas de <em>nosaltres</em>. Cosa d’estrangers o cosa d'altres temps. El totalitarisme  pot semblar un fenomen històric definitivament superat, un assumpte dels llibres d'història però no pas un problema d’avui.
-                </p>
-                <p>
-                    Mira’t aquestes imatges del passat i del present. Hi veus correspondències?
-                </p>
-            </div>
-            <!-- FIRST -->
-            <h2 class="text-center text-danger">Anul·lació de la llibertat individual</h2>
-            <div class="row">
-                <div class="col-xs-6">
-                    <img src="img/nazi-propaganda-02.jpg" class="img-responsive img-rounded">
-                    <p><small>1937. Míting nazi a Nuremberg. (Font: Hugo Jaeger— <a target="_new" href="https://time.com/3490218/a-brutal-pageantry-the-third-reichs-myth-making-machinery-in-color/">Time &amp; Life Pictures/Getty Images</a>)</small></p>
-                </div>
-                <div class="col-xs-6">
-                    <img src="img/kim-propaganda-02.jpg" class="img-responsive img-rounded">
-                    <p><small>2010. Desfilada espontània de l’exèrcit per felicitar el líder nord-coreà Kim Jong-il en la seva reelecció com a secretari general del Partit dels Treballadors de Corea. (Font: KCNA via <a target="_new" href="https://www.reuters.com/news/pictures">REUTERS</a>)</small></p>
-                </div>
-                <div class="col-xs-8 col-xs-offset-2">
-                    <div class="well">
-                        <p>
-                            En el totalitarisme, la llibertat individual dels ciutadans no té cap valor: és el líder del partit qui organitza directament tant la vida pública com la privada. Tot està en funció dels desitjos i obsessions del governant. En l’àmbit públic és significativa l’exaltació col·lectiva del líder mitjançant actes multitudinaris. Fins i tot els reductes més íntims de la vida dels ciutadans hi estan subordinats. No s'admeten ni la crítica ni la pluralitat.
-                        </p>
-                    </div>
+                    <div class="panel panel-default panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Atura't i comparteix <span class="glyphicon glyphicon-comment" aria-hidden="true"></span></h3>
+                        </div>
+                        <div class="panel-body">
+                          <p>Ara que ja ha quedat clar que sí que llegeixes, et proposem que recullis què has llegit darrerament i que ho mostris en aquest fòrum en forma de “riu de lectura”.</p>
 
-                </div>
-            </div>
-            <!-- SECOND -->
-            <h2 class="text-center text-danger">El culte al líder</h2>
-            <div class="row">
-                <div class="col-xs-6">
-                    <img src="img/theyadorehim.jpg" class="img-responsive img-rounded">
-                    <p><small>1939. Hitler envoltat de noies. Font: Hugo Jaeger - <a href="https://time.com/3881000/kim-jong-un-hitler-and-their-adoring-female-fans/">Time&amp;Life Pictures/Getty Images</a></small></p>
-                    <!--
-                    <img src="img/nazi_1937.jpg" class="img-responsive img-rounded">
-                    <p><small>Hitler, al poder de 1934 a 1945. (Font : Cartell de propaganda nazi. <a href="https://en.wikipedia.org/wiki/Nazi_propaganda#/media/File:Nazi_propaganda_-_Give_me_four_years%E2%80%99_time_-_1937.jpg">“Doneu-me 4 anys”</a>. Autor desconegut, 1937.)</small></p>
-                    <img src="img/stalin.jpeg" class="img-responsive img-rounded">
-                    <p><small>Stalin, al poder de 1922 a 1953. (Font : Cartell propagandístic de Stalin. “¡Llarga vida al gran Stalin!“. Sriocenqo, 1938.)</small></p>
-                    -->
-                    <img src="img/stalin_children.jpg" class="img-responsive img-rounded">
-                    <p><small>1936. Cartell de propaganda estalinista "Moltes gràcies, estimat Stalin. Per una infància feliç".</small></p>
-                </div>
-                <div class="col-xs-6">
-                    <img src="img/140513-reuters-kim-jong-il.jpg" class="img-responsive img-rounded">
-                    <p><small>2013. El líder Nord-coreà Kim Jong Un visita una explotació agrícola. Font: KCNA via <a href="https://time.com/3881000/kim-jong-un-hitler-and-their-adoring-female-fans/">Time</a>.</small></p>
+                          <p>Com ho has de fer?</p>
+                          <ul>
+                            <li>Apunta el que has llegit els últims set dies. Recorda que fem lectures de tot tipus, com s’ha comentat en aquest pas.</li>
+                            <li>Presenta-ho gràficament. Et suggerim el dibuix d’un riu on has d’afegir aquestes lectures. No es tracta de fer una gran obra, sinó una representació visual senzilla feta per tu.</li>
+                          </ul>
 
-                    <!--
-                    <img src="img/Kim-Jong-un-bien-accompagne-au-spectacle.jpg" class="img-responsive img-rounded">
-                    <p><small>2015. Kim Jong-un, líder de Corea del Nord, a la celebració del 70è aniversari del Partit dels Treballadors.(Font: Rodonng Sinmun - <a href="https://www.epa.eu/politics-photos/parties-photos/north-korea-marks-anniversary-of-ruling-party-foundation-photos-52312347">EPA</a>)</small></p>
-                    <img src="img/POTD_Kim_jong_un_3472977b.jpg" class="img-responsive img-rounded">
-                    <p><small>2015. Kim Jong-un, líder de Corea del Nord, saluda els soldats en la celebració del 70è aniversari del Partit dels Treballadors. (Font: KCNA - <a href="https://www.afp.com/fr/">AFP</a>)</small></p>
-                    -->
-                    <img src="img/kim_with_children.jpg" class="img-responsive img-rounded">
-                    <p><small>2014. Kim Jong Un, acompanyat per la seva dona, visita un hospital infantil a Pyongyang. Font: KCNA via <a href="https://www.afp.com/fr/">AFP</a></small></p>
-                </div>
-                <div class="col-xs-8 col-xs-offset-2">
-                    <div class="well">
-                        <p>
-                            En el totalitarisme totes les activitats, totes les dimensions de la vida, siguin d'ordre social, polític, econòmic, intel·lectual, cultural i moral es troben subordinades als interessos i a la ideologia del líder, un ésser únic i messiànic.
-                        </p>
+                          <p>Inspira’t en aquest exemple fet per un estudiant de l’IOC, crea el teu propi riu de lectura i pensa a posar-hi el teu nom.</p>
+                          <img src="./img/riu_lectura.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+                        </div>
                     </div>
-                </div>
             </div>
-            <!-- THIRD -->
-            <h2 class="text-center text-danger">Menyspreu per les vides humanes</h2>
-            <div class="row">
-                <div class="col-xs-6">
-                    <img src="img/ebensee-survivors.jpg" class="img-responsive img-rounded">
-                    <p><small>1945. Supervivents del camp de concentració d’Ebensee (Àustria) en ser alliberats per l’exèrcit dels EUA. (Font : <a target="_new" href="https://www.history.com/">History.com</a>)</small></p>
-                </div>
-                <div class="col-xs-6">
-                    <img src="img/chinese.jpg" class="img-responsive img-rounded">
-                    <p><small>2006. Delinqüents condemnats a mort humiliats en un judici públic a Zhuzhou (Hunan), Xina. (Font: REUTERS - <a target="_new" href="https://www.newsweek.com/china-executed-2400-prisoners-2013-says-human-rights-group-278733">Newsweek</a>)</small></p>
-                </div>
-                <div class="col-xs-8 col-xs-offset-2">
-                    <div class="well">
-                        <p>
-                            En un sentit ampli, el terme <em>totalitarisme</em> fa referència a aquells règims polítics que no accepten el sistema democràtic i no respecten els drets humans bàsics. La suposada bellesa d'un ideal arriba a justificar qualsevol mitjà per assolir-lo, fins i tot els més inhumans i cruels. Comparada amb la noblesa de la idea, les vides humanes són irrellevants. Això es va manifestar de manera brutal el segle passat amb el feixisme i el comunisme a través dels <em>konzentrationslager</em> (camps de concentració) alemanys i el <em>gulag</em> soviètic.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- FOURTH -->
-            <h2 class="text-center text-danger">La inhumanitat del totalitarisme</h2>
-            <div class="row" style="margin-bottom: 15em;">
-                <div class="col-xs-8 col-xs-offset-2">
-                    <img src="img/babi-yar-madre-e-hijo-son-abatidos-29-septiembre-194102.jpg" class="img-responsive img-rounded">
-                    <p><small>1941. Massacre de jueus a <a href="https://ca.wikipedia.org/wiki/Babi_Iar">Babi Iar</a> (Kíev, Ucraïna) per part dels nazis. (Font: Domini públic, autor desconegut)</small></p>
-                </div>
-                <div class="col-xs-8 col-xs-offset-2">
-                    <div class="well">
-                        <p>
-                            La fotografia, trobada en l'àlbum de records d'un antic membre de la Schutzstaffel (escamots de protecció nazis o SS), mostra un soldat de les SS apuntant al cap d'una dona que, encongida i donant l'esquena al botxí, abraça amb força la seva filla, una nena de pocs anys que estreny la careta contra la de la seva mare. Víctimes anònimes de la barbàrie, mare i filla semblaven voler protegir-se mútuament, com si intentessin esborrar la imminència de la tragèdia.
-                        </p>
-                    </div>
-                </div>
-            </div>
+          </div>
 
-            <!--/row -->
-            </main>
-            <footer class="single text-center">
-                <div class="content-footer">
-                    <p><a href="3.html">Ves al pas següent del curs</a>
-                </p>
-                <h1 style="color: white">Pas 3. El totalitarisme. Només una història passada? (i II)</h1>
-            </div>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
+      </main>
+      <footer class="single text-center">
+        <div class="content-footer">
+          <p><a href="3.html">Ves al pas següent del curs</a>
+          </p>
+          <h1 style="color: white">Pas 3. Pendent de títol</h1>
+        </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>
         window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')
-        </script>
-        <script src="../js/vendor/jquery.jpanelmenu.min.js"></script>
-        <script src="../js/vendor/bootstrap.min.js"></script>
-        <script src="../js/vendor/bootstrap-tour.min.js"></script>
-        <script src="../js/vendor/fastclick.min.js"></script>
-        <script src="../js/main.js"></script>
-    </body>
+                                                                                                    </script>
+      <script src="../js/vendor/jquery.jpanelmenu.min.js"></script>
+      <script src="../js/vendor/bootstrap.min.js"></script>
+      <script src="../js/vendor/bootstrap-tour.min.js"></script>
+      <script src="../js/vendor/fastclick.min.js"></script>
+      <script src="../js/main.js"></script>
+  </body>
 </html>

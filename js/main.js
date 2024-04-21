@@ -31,7 +31,7 @@ var s,
             // JPanel Menu Plugin -
             this.jpm();
 
-            // Bottom picture - ©Marc Català 2015 
+            // Bottom picture - ©Marc Català 2015
             this.bottomPicture();
 
             // Fast Click for Mobile - removes 300ms delay - https://github.com/ftlabs/fastclick
@@ -113,9 +113,6 @@ var s,
         bottomPicture: function() {
             // Show picture next step at the bottom of the page
             // ©Marc Català 2015
-
-
-
             var url = document.location.pathname;
             var regnum = /\/(\d+)\.html/i;
             var num = url.match(regnum);
@@ -126,8 +123,7 @@ var s,
                 $.ajax({
                     url: _nextPage,
                     success: function(result) {
-
-                        console.log(result);
+                        // console.log(result);
                         console.log($("footer"));
                         console.log($("header").attr("style"));
 

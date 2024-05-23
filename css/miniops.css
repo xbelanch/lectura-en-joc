@@ -381,6 +381,14 @@ animation: AnimationName 9s ease infinite;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DavysDingbats';
+    src: url(../fonts/DavysDingbats.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+
 .post .post-preview h2 {
     font-family: 'League Spartan';
     font-size: 24px;

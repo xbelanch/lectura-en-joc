@@ -31,8 +31,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Patrick+Hand&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/miniops.css">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap-tour.min.css">
     <style>
@@ -49,29 +48,29 @@
 
       /* Blockquote header */
       .blockquote p {
-          font-family: 'Oswald', sans-serif;
+          /*font-family: 'Oswald', sans-serif; */
           position: relative; /* for pseudos */
           color: #3c3c3c;
-          font-size: 2.8rem;
+          font-size: 1.8rem;
           font-weight: normal;
-          line-height: 1;
+          line-height: 200%;
           margin: 0;
           border: 2px solid #fff;
           border: solid 2px;
           border-radius:20px;
           padding: 25px;
+          background-color: #feffd9;
       }
 
       /* increase header size after 600px */
-      @media all and (min-width: 600px) {
-          .blockquote p {
-              font-size: 3rem;
-              line-height: 1.2;
-          }
-      }
+      /* @media all and (min-width: 600px) { */
+      /*     .blockquote p { */
+      /*         line-height: 1.2; */
+      /*     } */
+      /* } */
 
       .manuscrit {
-          margin-bottom: 3rem;
+          margin-top: 3rem;
       }
 
       .manuscrit h3 {
@@ -92,6 +91,7 @@
           margin: 0;
           margin-bottom: 12px;
           font-weight: 300;
+          line-height: 150%;
       }
 
       .manuscrit p.ornament {
@@ -102,11 +102,18 @@
           text-align: center;
       }
 
+      span.ornament {
+          font-family: 'DavysDingbats', serif;
+          font-size: 3.8rem;
+          font-weight: 500;
+          line-height: 100%;
+      }
+
+
       .analisi p {
-          font-family: 'Oswald', sans-serif;
+          /* font-family: 'Patrick Hand', script; */
           position: relative; /* for pseudos */
           color: #3c3c3c;
-          font-size: 1.8rem;
           font-weight: normal;
           margin: 8px 0 0 0;
       }
@@ -118,8 +125,11 @@
 
       .analisi p.remark {
           font-family: 'EB Garamond', serif;
-          color: red;
-          font-size: 1.8rem;
+          color: #111;
+          font-size: 2.3rem;
+          margin: 0;
+          margin-bottom: 12px;
+          font-weight: 300;
       }
 
       .drop-cap {
@@ -132,8 +142,57 @@
           padding-left: 3px;
       }
 
+      .bs-example {
+          position: relative;
+          padding: 45px 45px 5px;
+          margin: 0 -15px 15px;
+          border-color: #aaa #ccc #ccc;
+          border-style: solid;
+          border-width: 1px;
+          box-shadow: none;
+          border-radius: 4px 4px 0 0;
+      }
+
+      .bs-example:after {
+          position: absolute;
+          top: 10px;
+          left: 15px;
+          font-size: 4em;
+          font-weight: 700;
+          color: #3c3c3c;
+          font-family: 'EB Garamond', serif;
+          font-variant: small-caps;
+          font-variant: common-ligatures small-caps;
+          letter-spacing: 1px;
+          content: "Inici 1";
+      }
+
+      .comentari  {
+          margin: 5em 10em;
+          border-width: 1px;
+          border-bottom-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+      }
+
+      .comentari p {
+          font-family: "Reddit Mono", monospace;
+      }
+
+      .panel-title {
+          font-family: 'Reddit Mono', serif;
+          font-variant: small-caps;
+          font-variant: common-ligatures small-caps;
+          font-size: 4em;
+          font-weight: 700;
+      }
+
+      .panel-body {
+          background-color: #fcfcfc;
+      }
+
 
     </style>
+
     <!--[if lt IE 9]>
         <script src="/js/vendor/html5shiv.min.js"></script>
         <![endif]-->
@@ -194,131 +253,203 @@
         </div>
       </div>
 
-      <!-- Inici lectures -->
-      <div class="col-md-12">
-
-        <div class="panel panel-default" style="margin-bottom: 32px">
-          <div class="panel-heading">
-            <h3 class="panel-title">Inici 1: <em>El cel no és per a tothom</em>, Marta Rojals. Llibres Anagrama, 2018.</h3>
-          </div>
-          <div class="panel-body">
-            <div class="col-xs-6">
-              <div class="manuscrit">
-                <p>—Aviam, noies. A la de tres.</p>
-                <p>A la que fa tres, les germanes bufen per a la màquina de retratar del pare. Quinze espelmes cadascuna: les de la cassoleta vermella són les de l’Eva, i les de la cassoleta blau cel són de la Sara. A cada meitat del pa de pessic, els retalls de codonyat també fan formes diferents.</p>
-                <p>Clac.</p>
-                <p>El flaix inicia un lament.</p>
-                <p>—En tiro una altra per si de cas?</p>
-                <p>—No cal, pare.</p>
-                <p>—Sí, sí, tira'n una altra.</p>
-                <p>Si l’Eva diu que una altra, n'hi ha d’haver una altra. Ella va néixer la primera, ningú no li discuteix que és la gran. El pare torça el bigoti prim i arranat:</p>
-                <p>—Noies, en què quedem?</p>
-                <p>La mare esgarrapa la capsa de mistos.</p>
-                <p>—Sí, tira'n una altra, que amb tanta comèdia només faltarà que et surti bellugada.</p>
-                <p>La veu esquerdada del Pep diu:</p>
-                <p>—Deixa'm a mi.</p>
-                <p>Té tretze anys i ja fuma d’amagat, o això es pensa. Pren els mistos i es fa l'amo del foc.</p>
-              </div>
-              <img src="./img/marta_rojals.jpg" class="img-responsive center-block" style="max-width: 55%; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+      <div class="bs-example">
+        <div class="row" style="margin-bottom: 32px;">
+          <div class="col-md-8">
+            <div class="manuscrit">
+              <p>—Aviam, noies. A la de tres.</p>
+              <p>A la que fa tres, les germanes bufen per a la màquina de retratar del pare. Quinze espelmes cadascuna: les de la cassoleta vermella són les de l’Eva, i les de la cassoleta blau cel són de la Sara. A cada meitat del pa de pessic, els retalls de codonyat també fan formes diferents.</p>
+              <p>Clac.</p>
+              <p>El flaix inicia un lament.</p>
+              <p>—En tiro una altra per si de cas?</p>
+              <p>—No cal, pare.</p>
+              <p>—Sí, sí, tira'n una altra.</p>
+              <p>Si l’Eva diu que una altra, n'hi ha d’haver una altra. Ella va néixer la primera, ningú no li discuteix que és la gran. El pare torça el bigoti prim i arranat:</p>
+              <p>—Noies, en què quedem?</p>
+              <p>La mare esgarrapa la capsa de mistos.</p>
+              <p>—Sí, tira'n una altra, que amb tanta comèdia només faltarà que et surti bellugada.</p>
+              <p>La veu esquerdada del Pep diu:</p>
+              <p>—Deixa'm a mi.</p>
+              <p>Té tretze anys i ja fuma d’amagat, o això es pensa. Pren els mistos i es fa l'amo del foc.</p>
+              <p style="text-align: right;"><em>El cel no és per a tothom</em>, Marta Rojals. Llibres Anagrama, 2018.</p>
             </div>
-            <div class="col-md-6">
-              <div class="analisi">
-                <p>En llegir l’inici tenim la sensació d’haver caigut de sobte al menjador d’una família que celebra un aniversari, tot just en el moment en què dues germanes bessones estan a punt de bufar les espelmes.</p>
-                <p>Això no ho sabem a la primera línia, que és una línia de <strong>diàleg</strong>:</p>
-                <p class="remark">—Aviam, noies. A la de tres.</p>
-                <p>Descobrim que som en una festa d’anys perquè una altra <strong>veu</strong>, que no forma part de cap diàleg, sinó que conta, que narra, hi afegeix més informació:</p>
-                <p class="remark">A la que fa tres, les germanes bufen per a la màquina de retratar del pare.</p>
-                <p>El <strong>narrador</strong> ens explica l’escena però no hi participa: descriu en <strong>tercera persona</strong> els personatges i l'<strong>acció</strong> ("<em>les germanes bufen</em>", "<em>la mare esgarrapa</em>", "<em>té tretze anys i ja fuma</em>"). </p>
-                <p>Els <strong>personatges</strong> s'expressen amb els diàlegs i tenim la sensació que els escoltem en directe:</p>
-                <p class="remark">—Sí, tira’n una altra, que amb tanta comèdia només faltarà que et surti bellugada.</p>
-                <p>Aquesta alternança entre <strong>la veu narradora</strong> i les veus dels <strong>diàlegs</strong> ens permet obrir el focus i veure-hi cada cop més: <strong>on</strong> som, <strong>qui</strong> hi ha i <strong>què</strong> passa. I a partir d’aquí podem avançar què pot passar i quin <strong>tipus de narració</strong> hi trobarem.</p>
-                <p>Ens adonem que l’<strong>escena</strong> pertany a un <strong>temps</strong> històric en què s’havia d’estar alerta a la qualitat de les fotografies perquè per veure-les calia dur-les revelar. A més, la paraula retratar (màquina de retratar) és una <strong>expressió</strong> que es fa servir poc actualment.</p>
-                <p>El nombre d'espelmes ens presenta les noies a l'edat de 15 anys i el fet que apareguin a l’inici ens suggereix que possiblement són les <strong>protagonistes</strong> de la novel·la.</p>
-                <p>Sabem quina de les dues és la més gran, tot i ser bessones, la qual cosa ens fa pensar en una certa rivalitat. Hi apareix un noi, en Pep, que segurament és el germà, i que la frase: “<em>Pren els mistos i es fa l'amo del foc</em>” podria indicar que té una personalitat peculiar. O, si més no, el narrador vol fer-nos-ho pensar.</p>
-                <p>Les <strong>frases</strong> “<em>El pare torça el bigoti prim i arranat</em>” i la frase “<em>la mare esgarrapa la capsa de mistos</em>” sense més explicacions, mostren certa tensió i pot fer-nos intuir una situació familiar conflictiva.</p>
-                <p>Tots els <strong>indicis</strong> anteriors fan suposar que la <strong>novel·la</strong> versarà sobre relacions familiars, que no és una obra fantàstica sinó que reprodueix una realitat reconeixible per tots i que s’interessa pel caràcter psicològic dels personatges. </p>
-                <p>També podem suposar que si els diàlegs i les <strong>intervencions</strong> curtes del narrador es mantenen durant tota la <strong>novel·la</strong>, tot passarà a un <strong>ritme</strong> ràpid i això pot provocar ens hi enganxem fàcilment per saber què els passa als personatges i com evoluciona la <strong>història</strong>.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/marta_rojals.jpg" class="img-responsive center-block" style="max-width: 75%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+        </div>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo" style="display: flex; align-items: center;">
+              <span class="ornament" style="width: 50px;"><strong>Y</strong></span>
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#comentariOne" aria-expanded="false" aria-controls="comentariOne">Primera lectura </a>
+              </h4>
+            </div>
+            <div id="comentariOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                <div class="comentari">
+                  <p>En llegir l’inici tenim la sensació d’haver caigut de sobte al menjador d’una família que celebra un aniversari, tot just en el moment en què dues germanes bessones estan a punt de bufar les espelmes.</p>
+                  <p>Això no ho sabem a la primera línia, que és una línia de <strong>diàleg</strong>:</p>
+                  <p class="remark">—Aviam, noies. A la de tres.</p>
+                  <p>Descobrim que som en una festa d’anys perquè una altra <strong>veu</strong>, que no forma part de cap diàleg, sinó que conta, que narra, hi afegeix més informació:</p>
+                  <p class="remark">A la que fa tres, les germanes bufen per a la màquina de retratar del pare.</p>
+                  <p>El <strong>narrador</strong> ens explica l’escena però no hi participa: descriu en <strong>tercera persona</strong> els personatges i l'<strong>acció</strong> ("les germanes bufen", "la mare esgarrapa", "té tretze anys i ja fuma"). </p>
+                  <p>Els <strong>personatges</strong> s'expressen amb els diàlegs i tenim la sensació que els escoltem en directe:</p>
+                  <p class="remark">—Sí, tira’n una altra, que amb tanta comèdia només faltarà que et surti bellugada.</p>
+                  <p>Aquesta alternança entre <strong>la veu narradora</strong> i les veus dels <strong>diàlegs</strong> ens permet obrir el focus i veure-hi cada cop més: <strong>on</strong> som, <strong>qui</strong> hi ha i <strong>què</strong> passa. I a partir d’aquí podem avançar què pot passar i quin <strong>tipus de narració</strong> hi trobarem.</p>
+                  <p>Ens adonem que l’<strong>escena</strong> pertany a un <strong>temps</strong> històric en què s’havia d’estar alerta a la qualitat de les fotografies perquè per veure-les calia dur-les revelar. A més, la paraula retratar (màquina de retratar) és una <strong>expressió</strong> que es fa servir poc actualment.</p>
+                  <p>El nombre d'espelmes ens presenta les noies a l'edat de 15 anys i el fet que apareguin a l’inici ens suggereix que possiblement són les <strong>protagonistes</strong> de la novel·la.</p>
+                  <p>Sabem quina de les dues és la més gran, tot i ser bessones, la qual cosa ens fa pensar en una certa rivalitat. Hi apareix un noi, en Pep, que segurament és el germà, i que la frase: “Pren els mistos i es fa l'amo del foc” podria indicar que té una personalitat peculiar. O, si més no, el narrador vol fer-nos-ho pensar.</p>
+                  <p>Les <strong>frases</strong> “El pare torça el bigoti prim i arranat” i la frase “la mare esgarrapa la capsa de mistos” sense més explicacions, mostren certa tensió i pot fer-nos intuir una situació familiar conflictiva.</p>
+                  <p>Tots els <strong>indicis</strong> anteriors fan suposar que la <strong>novel·la</strong> versarà sobre relacions familiars, que no és una obra fantàstica sinó que reprodueix una realitat reconeixible per tots i que s’interessa pel caràcter psicològic dels personatges. </p>
+                  <p>També podem suposar que si els diàlegs i les <strong>intervencions</strong> curtes del narrador es mantenen durant tota la <strong>novel·la</strong>, tot passarà a un <strong>ritme</strong> ràpid i això pot provocar ens hi enganxem fàcilment per saber què els passa als personatges i com evoluciona la <strong>història</strong>.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- // Inici lectures -->
 
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Inici 2: <em>Demà, i demà, i demà</em>, de Gabrielle Zewin. Traducció: Ernest Riera. Periscopi, 2023.</h3>
-          </div>
-          <div class="panel-body">
-            <div class="col-md-6">
-              <div class="manuscrit">
-                <p><span class="drop-cap">A</span>bans que en Mazer es reinventés com a Mazer, era en Samson Mazer, i abans de ser en Samson Mazer, era en Samson Masur —un canvi de dues lletres que va transformar un noi ostensiblement jueu i com cal en un Constructor Professional de Mons— i durant bona part de la seva joventut va ser Sam; S. A. M. al Saló de la Fama de la màquina de Donkey Kong del seu avi, però sobretot Sam.</p>
+      <div class="bs-example">
+        <div class="row" style="margin-bottom: 32px;">
+          <div class="col-md-8">
+            <div class="manuscrit">
+              <p><span class="drop-cap">A</span>bans que en Mazer es reinventés com a Mazer, era en Samson Mazer, i abans de ser en Samson Mazer, era en Samson Masur —un canvi de dues lletres que va transformar un noi ostensiblement jueu i com cal en un Constructor Professional de Mons— i durant bona part de la seva joventut va ser Sam; S. A. M. al Saló de la Fama de la màquina de Donkey Kong del seu avi, però sobretot Sam.</p>
 
-                <p>Una tarda de finals de desembre, a les acaballes del segle xx, en Sam va sortir d’un vagó de metro i es va trobar que a l’artèria que duia cap a les escales mecàniques hi havia el coàgul d’una massa inerta de gent que es miraven un anunci bocabadats. En Sam feia tard. Tenia una reunió amb el seu conseller acadèmic que ja feia més d’un mes que posposava, però que tothom estava d’acord que s’havia de celebrar per força abans de les vacances d’hivern. A en Sam no li agradaven les gentades: ni trobar-s’hi enmig, ni cap de les bajanades que a la gent li agrada celebrar en massa. Però aquella gentada no es podia evitar. Hauria de travessar-la si volia arribar al món de la superfície.</p>
-              </div>
-              <img src="./img/dema_dema_dema.jpg" class="img-responsive center-block" style="max-width: 75%; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+              <p>Una tarda de finals de desembre, a les acaballes del segle xx, en Sam va sortir d’un vagó de metro i es va trobar que a l’artèria que duia cap a les escales mecàniques hi havia el coàgul d’una massa inerta de gent que es miraven un anunci bocabadats. En Sam feia tard. Tenia una reunió amb el seu conseller acadèmic que ja feia més d’un mes que posposava, però que tothom estava d’acord que s’havia de celebrar per força abans de les vacances d’hivern. A en Sam no li agradaven les gentades: ni trobar-s’hi enmig, ni cap de les bajanades que a la gent li agrada celebrar en massa. Però aquella gentada no es podia evitar. Hauria de travessar-la si volia arribar al món de la superfície.</p>
+              <p><em>Demà, i demà, i demà</em>, de Gabrielle Zewin. Traducció: Ernest Riera. Periscopi, 2023.</p>
             </div>
-            <div class="col-md-6">
-              <div class="analisi">
-                <p>Aquest inici m’ha costat molt d’entendre però m’ha agradat moltíssim. He hagut de rellegir diverses vegades el primer <strong>paràgraf</strong> perquè s’hi concentra més informació del que sembla.</p>
-                <h5>La part més fàcil:</h5>
-                <p>M'agrada perquè és una novel·la amb un <strong>argument</strong> actual: el personatge és al metro, de nen jugava al <em>Donkey Kong</em> i, a més, es diu <strong>literalment</strong> en quina època té lloc la història: “<em>Una tarda de finals de desembre, a les acaballes del segle </em>.”</p>
-                <p>M’agrada aquest <strong>personatge</strong> perquè sembla que és algú que ha sabut sortir-se’n amb èxit (hi ha <strong>mots</strong> que apunten en aquesta direcció: “<em>reinventés</em>”, “<em>canvi</em>” o “<em>transformar</em>”), des d’un origen i unes expectatives marcades (“un noi ostensiblement jueu i com cal”) fins a convertir-se en “Constructor Professional de Mons”. Primer, el concepte “Constructor de mons” m’ha desconcertat. Després l’he connectat amb el joc <em>Donkey Kong</em> al qual ell jugava de petit i he deduït que deu tenir a veure, potser, amb una feina vinculada al disseny de videojocs on, en efecte, es creen mons.</p>
-                <p>El personatge és al metro, sabem que l’entorn urbà i les masses l’atabalen (“<em>no li agradaven les gentades</em>”). El narrador compara la situació amb una embòlia, fent servir els mots “<em>artèria</em>” i “<em>coàgul</em>” en <strong>sentit figurat</strong>.</p>
-                <p>En Sam va a una entrevista amb el seu conseller acadèmic i no li ve de gust (“<em>Tenia una reunió amb el seu conseller acadèmic que ja feia més d’un mes que posposava</em>”), això em fa pensar que en Sam és un estudiant.</p>
-                <p>La <strong>veu que narra la història</strong> ho fa en <strong>3a persona</strong> (<em>va sortir</em>, <em>va trobar</em>, <em>tenia</em>, <em>hi havia</em>, <em>feia</em>) i coneix els detalls de la vida d’en Sam i d’aquella tarda. </p>
-                <p>A més, amb la frase “<em>tothom estava d’acord que s’havia de celebrar per força abans de les vacances d’hivern</em>” el narrador ens fa sentir la veu d’altres personatges que encara no coneixem i que segurament apareixeran més endavant.</p>
-                <h5>La part més difícil:</h5>
-                <p>El <strong>narrador</strong> explica els canvis de nom que adopta el personatge retrocedint cap enrere, és a dir, <strong>en ordre cronològic invers</strong>. He hagut de dibuixar-ho al full per adonar-me’n!</p>
-                <p>És a dir, el <strong>narrador</strong>, en lloc de seguir la <strong>lògica temporal de la història</strong> i explicar que en Samson Masur (en Sam, amb l’avatar S.A.M, de més jove) es va canviar després el nom pel de Samson Mazer i que encara posteriorment va passar a ser Mazer, narra en un <strong>ordre diferent</strong>: comença des del moment en què és només Mazer fins a arribar al moment anterior en què havia sigut simplement Sam. A més, el narrador insereix enmig del discurs alguns <strong>salts temporals</strong>, com ara el d’avançar el seu futur professional (“<em>—un canvi de dues lletres que va transformar un noi ostensiblement jueu i com cal en un Constructor Professional de Mons—</em>”). </p>
-                <p>Probablement, la <strong>novel·la</strong> expliqui la història d’en Sam i el seu recorregut sembla que s'hi planteja com una partida de joc en què cal superar obstacles importants per arribar al final (“<em>Hauria de travessar-la si volia arribar al món de la superfície</em>.”).</p>
+          </div>
+          <div class="col-md-4">
+          <img src="./img/dema_dema_dema.jpg" class="img-responsive center-block" style="max-width: 75%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+
+        </div>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo" style="display: flex; align-items: center;">
+              <span class="ornament" style="width: 50px;"><strong>Y</strong></span>
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#comentariTwo" aria-expanded="false" aria-controls="comentariTwo">Segona lectura </a>
+              </h4>
+            </div>
+            <div id="comentariTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                <div class="comentari">
+<!-- comentari -->
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Inici 3: <em>La mala dona, Marc Pastor</em> Ara llibres, 2016</h3>
-          </div>
-          <div class="panel-body">
-            <div class="col-md-6">
-              <div class="manuscrit">
-                <p><span class="drop-cap">A</span>ra soc una veu dins el teu cap. O el recitar d’algú a qui estimes a la vora del llit, o un company d’estudis que no sap llegir en silenci, o un record desenterrat per una olor. Soc home, soc dona, soc vent i paper; un viatjant, un caçador i una mainadera (el rei de la ironia); qui et serveix el dinar i qui et dona plaer, qui t’apallissa i qui t’escolta; la beguda que crema la gola, la pluja que se’t cala als ossos, el reflex de la nit en una finestra i el plor del nadó abans d’alletar.</p>
-                <p>Jo ho soc tot i puc ser a tot arreu. Em comporto com un home (si comportar-se és el verb més escaient), més que no pas com una dona. I això que tot sovint la gent es refereix a mi en femení, que si la Dama, que si la Gran M., que si la Inexorable (aquesta m’agrada especialment, és de <em>Les mil i una nits</em> i la trobo força poètica). Té una explicació bastant lògica, però. Les dones són l’essència de l’espècie, l’inici de tot plegat. Les dones doneu Vida. Sou tot el contrari del que jo represento. Som als dos extrems de la corda. No us odio (no tinc sentiments, només curiositat), però tampoc soc com vosaltres. Soc més home: destructor. Els homes només saben aniquilar, desfer, en tots els camps possibles: dominar i matar. Però sense els homes, tampoc hi hauria criatures, podeu argumentar. Bajanades. L’home no pareix. Només posseeix la femella i hi deixa la llavor, el seu rastre destructor. En certa manera, ell la mata i ella se sacrifica perquè hi hagi una nova vida. Les dones pariran i criaran i s’encarregaran que tot continuï endavant. Per això vull explicar-vos la història de l’Enriqueta Martí.</p>
-              </div>
-              <img src="./img/portadamaladona.jpg" class="img-responsive center-block" style="max-width: 65%; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+
+
+
+
+      <!-- // Inici lectures -->
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Inici 2</h3>
+        </div>
+        <div class="panel-body">
+          <div class="col-md-8">
+            <div class="manuscrit">
+              <p><span class="drop-cap">A</span>bans que en Mazer es reinventés com a Mazer, era en Samson Mazer, i abans de ser en Samson Mazer, era en Samson Masur —un canvi de dues lletres que va transformar un noi ostensiblement jueu i com cal en un Constructor Professional de Mons— i durant bona part de la seva joventut va ser Sam; S. A. M. al Saló de la Fama de la màquina de Donkey Kong del seu avi, però sobretot Sam.</p>
+
+              <p>Una tarda de finals de desembre, a les acaballes del segle xx, en Sam va sortir d’un vagó de metro i es va trobar que a l’artèria que duia cap a les escales mecàniques hi havia el coàgul d’una massa inerta de gent que es miraven un anunci bocabadats. En Sam feia tard. Tenia una reunió amb el seu conseller acadèmic que ja feia més d’un mes que posposava, però que tothom estava d’acord que s’havia de celebrar per força abans de les vacances d’hivern. A en Sam no li agradaven les gentades: ni trobar-s’hi enmig, ni cap de les bajanades que a la gent li agrada celebrar en massa. Però aquella gentada no es podia evitar. Hauria de travessar-la si volia arribar al món de la superfície.</p>
+              <p><em>Demà, i demà, i demà</em>, de Gabrielle Zewin. Traducció: Ernest Riera. Periscopi, 2023.</p>
             </div>
-            <div class="col-md-6">
-              <div class="analisi">
-                <p>
-                  Quan he començat a llegir m’he sentit intimidat perquè el <strong>narrador</strong> s’adreça a mi (el lector, “<strong>tu”</strong>) en <strong>primera persona</strong> (<strong>“jo”</strong>). Ho fa directament i envaeix el meu espai íntim (“<em>Ara soc una veu dins el teu cap</em>.”)
-                </p>
-                <p>
-                  El primer <strong>paràgraf</strong> em sembla amenaçador (“<em>qui t’apallisa</em>”), evoca sensacions desagradables (“<em>la beguda que crema la gola</em>”; “<em>la pluja que se’t cala als ossos</em>”), angoixoses (“<em>el plor del nadó abans d’alletar</em>”) o irritants (“<em>un company d’estudis que no sap llegir en silenci</em>”).
-                </p>
-                <p>
-                  La<strong> veu narradora</strong> em repta, vol que endevini la seva identitat i em dona pistes: es descriu com un “<em>home brutal</em>” a qui sovint ens referim en femení “<em>la Dama, la gran M, la inexorable</em>”. La frase: “<em>Les dones doneu Vida, però sou tot el contrari del jo represento</em>” m’indueix a pensar que aquesta veu és la Mort que ens arrabassa la Vida quan vol.
-                </p>
-                <p>
-                  És la veu de la Mort sorneguera i arrogant (“<em>No tinc sentiments, només curiositat</em>”) davant la impotència dels humans que no tenim escapatòria possible.
-                </p>
-                <p>
-                  La mort es masculinitza perquè, segons la veu narradora, l’home és més fort (“<em>destructor</em>”, “<em>aniquila, domina i mata.</em>”) mentre que les dones donen a llum i fan la criança.
-                </p>
-                <p>
-                  De sobte el <strong>jo narrador</strong> (la Mort) anomena una dona: “<em>Enriqueta Martí</em>”. Apareix un <strong>personatge</strong>, amb nom i cognom, de carn i ossos.
-                </p>
-                <p>
-                  La veu que em parla m’ha portat a un món real, on habiten persones com l’Enriqueta. És mare? És mestra? És una mainadera? No ho puc saber del cert, però és probable que l’Enriqueta tingui una relació directa amb la mort i les criatures, per a bé o per a mal. Podria tenir un paper <strong>protagonista </strong>en la història.
-                </p>
-                <p>
-                  Tampoc he trobat <strong>indicis</strong> sobre <strong>on som</strong> ni <strong>el temps </strong>en què s’esdevindrà l’<strong>acció</strong>.
-                </p>
-                <p>
-                  La veu narradora m’ha obert la porta a un <strong>relat</strong> que sembla inquietant, hauria de continuar llegint per descobrir-ne més detalls.
-                </p>
-              </div>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/dema_dema_dema.jpg" class="img-responsive center-block" style="max-width: 75%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Segona lectura</h3>
+        </div>
+        <div class="panel-body">
+          <div class="col-md-12">
+            <div class="analisi">
+              <p>Aquest inici m’ha costat molt d’entendre però m’ha agradat moltíssim. He hagut de rellegir diverses vegades el primer <strong>paràgraf</strong> perquè s’hi concentra més informació del que sembla.</p>
+              <p>La part més fàcil:</p>
+              <p>M'agrada perquè és una novel·la amb un <strong>argument</strong> actual: el personatge és al metro, de nen jugava al Donkey Kong i, a més, es diu <strong>literalment</strong> en quina època té lloc la història: “Una tarda de finals de desembre, a les acaballes del segle .”</p>
+              <p>M’agrada aquest <strong>personatge</strong> perquè sembla que és algú que ha sabut sortir-se’n amb èxit (hi ha <strong>mots</strong> que apunten en aquesta direcció: “reinventés”, “canvi” o “transformar”), des d’un origen i unes expectatives marcades (“un noi ostensiblement jueu i com cal”) fins a convertir-se en “Constructor Professional de Mons”. Primer, el concepte “Constructor de mons” m’ha desconcertat. Després l’he connectat amb el joc Donkey Kong al qual ell jugava de petit i he deduït que deu tenir a veure, potser, amb una feina vinculada al disseny de videojocs on, en efecte, es creen mons.</p>
+              <p>El personatge és al metro, sabem que l’entorn urbà i les masses l’atabalen (“no li agradaven les gentades”). El narrador compara la situació amb una embòlia, fent servir els mots “artèria” i “coàgul” en <strong>sentit figurat</strong>.</p>
+              <p>En Sam va a una entrevista amb el seu conseller acadèmic i no li ve de gust (“Tenia una reunió amb el seu conseller acadèmic que ja feia més d’un mes que posposava”), això em fa pensar que en Sam és un estudiant.</p>
+              <p>La <strong>veu que narra la història</strong> ho fa en <strong>3a persona</strong> (va sortir, va trobar, tenia, hi havia, feia) i coneix els detalls de la vida d’en Sam i d’aquella tarda. </p>
+              <p>A més, amb la frase “tothom estava d’acord que s’havia de celebrar per força abans de les vacances d’hivern” el narrador ens fa sentir la veu d’altres personatges que encara no coneixem i que segurament apareixeran més endavant.</p>
+              <p>La part més difícil:</p>
+              <p>El <strong>narrador</strong> explica els canvis de nom que adopta el personatge retrocedint cap enrere, és a dir, <strong>en ordre cronològic invers</strong>. He hagut de dibuixar-ho al full per adonar-me’n!</p>
+              <p>És a dir, el <strong>narrador</strong>, en lloc de seguir la <strong>lògica temporal de la història</strong> i explicar que en Samson Masur (en Sam, amb l’avatar S.A.M, de més jove) es va canviar després el nom pel de Samson Mazer i que encara posteriorment va passar a ser Mazer, narra en un <strong>ordre diferent</strong>: comença des del moment en què és només Mazer fins a arribar al moment anterior en què havia sigut simplement Sam. A més, el narrador insereix enmig del discurs alguns <strong>salts temporals</strong>, com ara el d’avançar el seu futur professional (“—un canvi de dues lletres que va transformar un noi ostensiblement jueu i com cal en un Constructor Professional de Mons—”). </p>
+              <p>Probablement, la <strong>novel·la</strong> expliqui la història d’en Sam i el seu recorregut sembla que s'hi planteja com una partida de joc en què cal superar obstacles importants per arribar al final (“Hauria de travessar-la si volia arribar al món de la superfície.”).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Inici 3</h3>
+        </div>
+        <div class="panel-body">
+          <div class="col-md-8">
+            <div class="manuscrit">
+              <p><span class="drop-cap">A</span>ra soc una veu dins el teu cap. O el recitar d’algú a qui estimes a la vora del llit, o un company d’estudis que no sap llegir en silenci, o un record desenterrat per una olor. Soc home, soc dona, soc vent i paper; un viatjant, un caçador i una mainadera (el rei de la ironia); qui et serveix el dinar i qui et dona plaer, qui t’apallissa i qui t’escolta; la beguda que crema la gola, la pluja que se’t cala als ossos, el reflex de la nit en una finestra i el plor del nadó abans d’alletar.</p>
+              <p>Jo ho soc tot i puc ser a tot arreu. Em comporto com un home (si comportar-se és el verb més escaient), més que no pas com una dona. I això que tot sovint la gent es refereix a mi en femení, que si la Dama, que si la Gran M., que si la Inexorable (aquesta m’agrada especialment, és de <em>Les mil i una nits</em> i la trobo força poètica). Té una explicació bastant lògica, però. Les dones són l’essència de l’espècie, l’inici de tot plegat. Les dones doneu Vida. Sou tot el contrari del que jo represento. Som als dos extrems de la corda. No us odio (no tinc sentiments, només curiositat), però tampoc soc com vosaltres. Soc més home: destructor. Els homes només saben aniquilar, desfer, en tots els camps possibles: dominar i matar. Però sense els homes, tampoc hi hauria criatures, podeu argumentar. Bajanades. L’home no pareix. Només posseeix la femella i hi deixa la llavor, el seu rastre destructor. En certa manera, ell la mata i ella se sacrifica perquè hi hagi una nova vida. Les dones pariran i criaran i s’encarregaran que tot continuï endavant. Per això vull explicar-vos la història de l’Enriqueta Martí.</p>
+              <p style="text-align: right;"><em>La mala dona, Marc Pastor</em> Ara llibres, 2016</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/portadamaladona.jpg" class="img-responsive center-block" style="max-width: 85%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Inici 3: <em>La mala dona, Marc Pastor</em> Ara llibres, 2016</h3>
+        </div>
+        <div class="panel-body">
+          <div class="col-md-12">
+            <div class="analisi">
+              <p>
+                Quan he començat a llegir m’he sentit intimidat perquè el <strong>narrador</strong> s’adreça a mi (el lector, “<strong>tu”</strong>) en <strong>primera persona</strong> (<strong>“jo”</strong>). Ho fa directament i envaeix el meu espai íntim (“<em>Ara soc una veu dins el teu cap</em>.”)
+              </p>
+              <p>
+                El primer <strong>paràgraf</strong> em sembla amenaçador (“<em>qui t’apallisa</em>”), evoca sensacions desagradables (“<em>la beguda que crema la gola</em>”; “<em>la pluja que se’t cala als ossos</em>”), angoixoses (“<em>el plor del nadó abans d’alletar</em>”) o irritants (“<em>un company d’estudis que no sap llegir en silenci</em>”).
+              </p>
+              <p>
+                La<strong> veu narradora</strong> em repta, vol que endevini la seva identitat i em dona pistes: es descriu com un “<em>home brutal</em>” a qui sovint ens referim en femení “<em>la Dama, la gran M, la inexorable</em>”. La frase: “<em>Les dones doneu Vida, però sou tot el contrari del jo represento</em>” m’indueix a pensar que aquesta veu és la Mort que ens arrabassa la Vida quan vol.
+              </p>
+              <p>
+                És la veu de la Mort sorneguera i arrogant (“<em>No tinc sentiments, només curiositat</em>”) davant la impotència dels humans que no tenim escapatòria possible.
+              </p>
+              <p>
+                La mort es masculinitza perquè, segons la veu narradora, l’home és més fort (“<em>destructor</em>”, “<em>aniquila, domina i mata.</em>”) mentre que les dones donen a llum i fan la criança.
+              </p>
+              <p>
+                De sobte el <strong>jo narrador</strong> (la Mort) anomena una dona: “<em>Enriqueta Martí</em>”. Apareix un <strong>personatge</strong>, amb nom i cognom, de carn i ossos.
+              </p>
+              <p>
+                La veu que em parla m’ha portat a un món real, on habiten persones com l’Enriqueta. És mare? És mestra? És una mainadera? No ho puc saber del cert, però és probable que l’Enriqueta tingui una relació directa amb la mort i les criatures, per a bé o per a mal. Podria tenir un paper <strong>protagonista </strong>en la història.
+              </p>
+              <p>
+                Tampoc he trobat <strong>indicis</strong> sobre <strong>on som</strong> ni <strong>el temps </strong>en què s’esdevindrà l’<strong>acció</strong>.
+              </p>
+              <p>
+                La veu narradora m’ha obert la porta a un <strong>relat</strong> que sembla inquietant, hauria de continuar llegint per descobrir-ne més detalls.
+              </p>
             </div>
           </div>
         </div>
@@ -349,7 +480,7 @@
                 </li>
               </ol>
               <div class="manuscrit">
-                <h3>Els nens</h3>
+                <!-- <h3>Els nens</h3> -->
                 <p>
                   <span class="drop-cap">E</span>staven arrupits darrera de la cortina. En Jaume sentia els cabells de la Maria a la galta i el pes de la mà d’en Ramon al clatell. En Ramon, de tant en tant, deia: no feu soroll, que vénen.
                 </p>

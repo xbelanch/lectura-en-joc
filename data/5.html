@@ -1,0 +1,448 @@
+<!--
+⢰⣶⠶⢶⣶⣶⡶⢶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⡶⠶⢶⣶⣶⣶⣶
+⠘⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿⠿⠄⠄⠄⠈⠉⠄⠄⣹⣶⣿⣿⣿⣿⢿
+⠄⠤⣾⣿⣿⣿⣿⣷⣤⡈⠙⠛⣿⣿⣿⣧⣀⠠⣤⣤⣴⣶⣿⣿⣿⣿⣿⣿⣿⣿⣶
+⢠⠄⠄⣀⣀⣀⣭⣿⣿⣿⣶⣿⣿⣿⣿⣿⣿⣤⣿⣿⠉⠉⠉⢉⣉⡉⠉⠉⠙⠛⠛
+⢸⣿⡀⠄⠈⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⢿⣿⣿⣷⣾⣿
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⠛⢩⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢸⣿⣿⣿⣿⣿⡿⣿⣿⣴⣿⣿⣿⣿⣄⣠⣴⣿⣷⣭⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠸⠿⣿⣿⣿⠋⣴⡟⠋⠈⠻⠿⠿⠛⠛⠛⠛⠛⠃⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢸⣿⣿⣿⡁⠈⠉⠄⠄⠄⠄⠄⣤⡄⠄⠄⠄⠄⠄⠈⠄⠈⠻⠿⠛⢿⣿⣿⣿⣿⣿
+⢸⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⣠⣄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣀⣿⣿⣿⣿
+⢸⣿⣿⣿⡀⠄⠄⠄⠄⠄⠄⠄⠉⠉⠁⠄⠄⠄⠄⠐⠒⠒⠄⠄⠄⠄⠉⢸⣿⣿⣿
+⢸⣿⣿⣿⢿⣦⣄⣠⣄⠛⠟⠃⣀⣀⡀⠄⠄⣀⣀⣀⣀⣀⣀⡀⢀⣰⣦⣼⣿⣿⡿
+⢸⣿⣿⣿⣿⣿⣿⣻⣿⠄⢰⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢛⣥⣾⣟⣿⣿⣿⣿⣿
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⡆⠈⠿⠿⠿⠿⠿⠿⠿⠿⠿⣧⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+-->
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Pas 5. La realitat de la ficció</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Patrick+Hand&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/miniops.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-tour.min.css">
+    <style>
+      #magazine{
+	      width: auto;
+	      height: 768px;
+          margin-bottom: 100px;
+      }
+      #magazine .turn-page{
+	      background-color:#efefef;
+      }
+
+      .cell {
+          border-top: 1px solid #6c6c6c;
+      }
+
+
+      .manuscrit {
+          padding: 1rem;
+          border-radius: 1rem;
+          margin: 0;
+          margin-bottom: 12px;
+      }
+
+      .manuscrit p {
+          font-family: 'EB Garamond', serif;
+          color: #111;
+          font-size: 2.1rem;
+          font-weight: 300;
+          line-height: 150%;
+      }
+
+      .important {
+          border-radius: 1rem;
+          font-family: arial;
+          text-align: center;
+          font-size: 3em;
+          color: #fff;
+          letter-spacing: 2px;
+          font-weight: 700;
+          text-transform: uppercase;
+          text-shadow: 0px 0px 5px #aaa, 0px 0px 7px #aaa;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <header class="hero-image" role="banner" style="background-image: url(https://placehold.co/1280x800/8c3cac/fff/?text=La+realitat+de+la+ficció&font=lora);">
+      <span class="menu-trigger writer-icon animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </span>
+      <!-- if the user has javascript disabled they can still use the menu -->
+      <noscript>
+        <div class="no-js-menu">
+          <h3>Índex del curs</h3>
+          <ul>
+            <li><a href="../index.html">Portada</a></li>
+            <li><a href="1.html">Pas 1. Presentació</a></li>
+            <li><a href="2.html">Pas 2. Sí que llegeixes</a></li>
+            <li><a href="3.html">Pas 3. Trajectòries lectores</a></li>
+            <li><a href="4.html">Pas 4. Què ens diuen els inicis de les narracions?</a></li>
+            <li><a class="active" href="#">Pas 5. La realitat de la ficció</a></li>
+          </ul>
+        </div>
+      </noscript>
+      <!-- end no script -->
+      <div id="menu-target">
+        <h3>Índex del curs</h3>
+        <ul>
+          <li><a href="../index.html">Portada</a></li>
+          <li><a href="1.html">Pas 1. Presentació</a></li>
+          <li><a href="2.html">Pas 2. Sí que llegeixes</a></li>
+          <li><a href="3.html">Pas 3. Trajectòries lectores</a></li>
+          <li><a href="4.html">Pas 4. Què ens diuen els inicis de les narracions?</a></li>
+          <li><a class="active" href="#">Pas 5. La realitat de la ficció</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- /container -->
+    <main class="container">
+      <div class="row">
+        <div class="col-md-12 single-content" style="padding-bottom: 1em;">
+          <h1 id="second-step">Pas 5. La realitat de la ficció</h1>
+          <p class="subtitle">Vivim en l’era del contingut: tot és carn de canó per a les xarxes socials. Però una novel·la no és contingut; no és una cosa que simplement ocupa un espai en la teva vida o t’ajuda a passar el temps. Una novel·la és un fi en si mateix, i s’ha d’apreciar com a tal. <span style="">Otessa Moshfegh</span></p>
+          <p>Per parlar de les narracions a partir dels seus inicis, has hagut d’observar una sèrie d’elements clau: el temps de la història, la veu narradora, els personatges i l’aparició de les seves veus en el relat, el que mostren o diuen del món narrat; les paraules que es fan servir, el ritme del relat, etc. Fets i indicis que t’acosten al sentit de les obres.</p>
+          <p>Ara, continua millorant la teva destresa com a lector literari. Para atenció.</p>
+
+          <h2>Una lent d’augment</h2>
+
+          <p>Els elements narratius són substancials als relats literaris. Identificar-los i entendre com funcionen guia la comprensió i la interpretació de les obres. Potser no són tan evidents com el tema o l'argument de les narracions, però també formen part del seu ADN i, per tant, són bàsics i reveladors a l’hora de descobrir-ne el sentit o de, simplement, gaudir de llegir literatura.</p>
+
+          <p>Si hi penses una mica, t’adonaràs que els grans temes literaris han estat sempre els mateixos: l’amor, el viatge, la mort; l’amistat, la violència i el crim...</p>
+
+          <p>Cada autor combina aquest conjunt de temes i d’elements narratius de manera diferent per compondre una nova peça literària que és única i que podem posar en relació, precisament a partir d’aquests elements bàsics, amb la resta d’obres de la literatura universal.</p>
+
+          <p>Quan aquesta combinació de temes i d’elements està clarament fixada com un tipus concret de narració, que, a més, és socialment reconegut com a tal, podem parlar de <strong>gènere narratiu</strong>.</p>
+
+          <p>Així, els lectors podem avançar -fins i tot donant un cop d’ull a la coberta- si el que tenim a les mans és una novel·la romàntica, d’aventures o de ciència-ficció; un llibre de terror, un relat policíac o un <em>true crime</em>.</p>
+
+          <p>Si posem per cas un tema tan humà com la violència i el crim, comprovem que és present a gairebé tots els relats coneguts des de l’inici de la història de la literatura. Cada relat és diferent pel que fa a l’argument, el món que narra, la veu que explica la història, l’ordre en què s’hi expliquen els fets, etc., però també podem detectar patrons comuns en algunes obres. Fixa’t en aquesta llista, de segur que reconeixes el gènere narratiu al qual pertanyen:</p>
+
+          <ul>
+<li>Hi ha un crim.</li>
+<li>El crim és previ a l’inici de la narració i sovint apareix a l’inici del relat.</li>
+<li>Paral·lelament a la història del crim, hi ha la història de la investigació, i totes dues històries s’entrellacen en el relat.</li>
+<li>Els personatges pertanyen a mons socials i col·lectius professionals ben definits.</li>
+<li>El personatge protagonista ha de resoldre el misteri al voltant de la història del crim i reconstruir-la, alhora que la seva pròpia història avança amb la de la investigació.</li>
+<li>La manera com es mostra la història i s’ordenen els fets en el relat són essencials per crear suspens i girs argumentals.</li>
+<li>L’acció i el ritme també són clau a la narració.</li>
+<li>Hi ha elements i llocs comuns habituals: armes, procediments i instruments propis de la investigació forense i criminal, secrets; ambients foscos, perill.</li>
+          </ul>
+
+          <p>Els patrons dins d’un mateix gènere varien al llarg del temps, com també canvien els referents ètics i marcs ideològics que contenen les obres.</p>
+          <p>Igualment, un gènere es pot hibridar amb altres patrons genèrics i donar lloc a fórmules o jocs narratius nous, com ara una distopia policíaca o un western romàntic.</p>
+          <p>De la mateixa manera, la consideració d’un determinat gènere per part de la societat evoluciona.</p>
+          <p>Mira’t aquesta taula i considera alguns dels canvis del gènere negre des dels orígens a l’actualitat:</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h3>En el seu origen...</h3>
+            <p class="cell">La novel·la policíaca es limita a la resolució d’un enigma criminal, sense que importi gaire la complexitat del món en què s'insereixen el misteri i els seus protagonistes.</p>
+            <img src="./img/els-crims-del-carrer-de-la-morgue.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+          <div class="col-md-6">
+            <h3>En l’actualitat...</h3>
+            <p class="cell">Hi trobem molt més que la resolució intel·lectual d’un crim sofisticat imaginat per l’autor. Pot haver-hi molta complexitat en el món que ha creat: realisme social, observació del comportament humà, anàlisi d’estructures de poder i relacions interpersonals amb molts matisos, etc.<br>
+            Per exemple: <a target="_blank" href="https://vazquezmontalban.bnc.cat/novella-negra/">L’univers del detectiu Carvalho de Manuel Vázquez Montalbán</a></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="cell">El crim atroç s'identifica amb l’assassinat</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/The_Penny_Illustrated_Paper_-_September_8%2C_1888_-_Jack_the_Ripper.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+          <div class="col-md-6">
+            <p class="cell">El catàleg atroç dels crims s’eixampla i hi apareixen els crims econòmics, mediambientals i polítics a gran escala.</p>
+            <img src="https://grup62cat.cdnstatics2.com/usuaris/libros/fotos/398/m_libros/portada_colliras-tempestes_donna-leon_202405060851.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="cell">Sovint estereotipada en la trama, la dona ocupa de manera general i tòpica el paper d’objecte de desig o de víctima que necessita salvació, una femme fatale o una persona caràcter manipulador.</p>
+            <img src="https://badgerbooks.com.au/images/books/cover/40958_20211210111140_the_maltese_falcon_folio_2.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+            <p>I només el de lectora en el circuit cultural -fet que, de segur, no discutirien ni Agatha Christie ni la seva investigadora Miss Marple!
+El crim atroç s'identifica amb l’assassinat</p>
+          </div>
+          <div class="col-md-6">
+            <p class="cell">Els personatges femenins han anat multiplicant-se i variant.<br>
+            D’una banda, són moltes les detectivesses i investigadores en el gènere negre, entre les quals hi ha nous paradigmes com el que representa Lisbeth Salander, de la trilogia <em>Millennium</em>.<br>
+            O el de Marina Huguet, a la sèrie <em>Treufoc</em>, malgrat que no tothom acceptaria de catalogar-la com a investigadora...<br>
+            D’altra banda, el gènere ha transgredit la figura de les víctimes en tant que propiciadores del crim. La víctima i la seva història són ateses amb respecte, versemblança social i riquesa narrativa.<br>
+            Finalment, són moltes les autores i editores de novel·la negra en l’actualitat.<br>
+            El catàleg atroç dels crims s’eixampla i hi apareixen els crims econòmics, mediambientals i polítics a gran escala.</p>
+            <img src="https://www.onallibres.cat/cdnassets/books/9788416334384_1_l.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="cell">La novel·la policíaca és menystinguda i s’associa a produccions decadents, no literàries, relegades a col·leccions editorials de poc valor, destinades a lectors que volen evadir-se a través d’una fórmula narrativa repetida amb arguments rebregats, personatges arquetípics sense cap complexitat.</p>
+            <img src="https://m.media-amazon.com/images/I/41CkzYrdQ8L.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+          <div class="col-md-6">
+            <p class="cell">La consideració del gènere muda a partir de l’evolució de la seva qualitat literària i de la seva funció social.</br>
+            Es considera ara que la novel·la negra permet fer entendre la realitat, des de la ficció, a partir de creacions literàries genuïnes i originals.<br>
+            Al voltant de les obres del gènere negre hi ha expectació i esdeveniments culturals de molta rellevància. El festival literari BCN Negra n’és un clar exemple.<br>
+            Així mateix, el gènere també ha captat l’atenció de la crítica literària i dels estudiosos de la literatura.</p>
+            <img src="https://librujula.publico.es/wp-content/uploads/2024/02/Cartell-Web_BCNegra24_CAT_TR.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="cell">Les sèries, és a dir, les novel·les protagonitzades per un mateix investigador satisfà les expectatives del lector perquè hi troba sempre un mateix personatge central, infal·lible, carismàtic i admirat pel seu enginy i dots deductius. Es tracta generalment un aficionat que treballa pel gust de fer-ho, com ara Auguste Dupin d’Edgar Allan Poe que segurament va inspirar Arthur Conan Doyle per crear Sherlock Holmes o la figura d’Hercule Poirot de l’escriptora Agatha Christie.</p>
+            <img src="https://www.onallibres.cat/cdnassets/books/9788419474087_1_l.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+          <div class="col-md-6">
+            <p class="cell">La figura del detectiu serialitzat evoluciona cap a un personatge, tant femení com masculí,  que a primera vista no té res d’extraordinari, sovint se sent incòmode amb si mateix i acara críticament temes com el racisme, el fanatisme, el tràfic de drogues, l’explotació sexual o el tràfic de persones. L’entorn geogràfic i paisatgístic esdevé gairebé un personatge i l’autor treballa més a fons la construcció i desconstrucció dels personatges i els investigadors.</p>
+            <img src="https://www.onallibres.cat/cdnassets/books/9788419334589_1_l.jpg" class="img-responsive" style="max-width: 35%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+          </div>
+        </div>
+        <p class="cell"></p>
+        <div class="row"
+        <div class="col-md-12">
+          <p>No has d’oblidar, però, que en la major part d’obres literàries pot haver-hi patrons temàtics i narratius de gènere, sense que es tracti en cap cas d’una obra adscrita a cap gènere narratiu.</p>
+          <p>Mira els vídeos i llegeix els textos d’aquest mosaic:</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cdYBaZIVWwY?hl=ca&cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <p><small><em>La fossa</em>, sèrie dirigida per Agustí Vila, 2020. CCMC i CVMC</small></p>
+          <div class="manuscrit" style="background-color: #f7e2a9;">
+            <p>El niño que no sabía jugar<br>
+            Había un niño que no sabía jugar. La madre le miraba desde la ventana ir y venir por los caminitos de tierra, con las manitas quietas, como caídas a los lados del cuerpo. Al niño, los juguetes de colores chillones, la pelota, tan redonda, y los camiones, con sus ruedecillas, no le gustaban. Los miraba, los tocaba, y luego se iba al jardín, a la tierra sin techo, con sus manitas, pálidas y no muy limpias, pendientes junto al cuerpo como dos extrañas campanillas mudas. La madre miraba inquieta al niño, que iba y venía con una sombra entre los ojos. “Si al niño le gustara jugar yo no tendría frío mirándole ir y venir”. Pero el padre decía, con alegría: “No sabe jugar, no es un niño corriente. Es un niño que piensa”.<br>
+            Un día la madre se abrigó y siguió al niño, bajo la lluvia, escondiéndose entre los árboles. Cuando el niño llegó al borde del estanque, se agachó, buscó grillitos, gusanos, crías de rana y lombrices. Iba metiéndolos en una caja. Luego, se sentó en el suelo, y uno a uno los sacaba. Con sus uñitas sucias, casi negras, hacía un leve ruidito, ¡crac!, y les segaba la cabeza.<br>
+            FIN</p>
+            <p style="text-align: right;"><em>Los niños tontos</em>, Ana María Matute. Ediciones Arión, 1956.</p>
+          </div>
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m8axEs0ytbY?hl=ca&cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <p><small><em>El policía de las ratas</em>, Roberto Bolaño. Adaptació teatral de <a target="_blank" href="https://www.teatroabadia.com/">La Abadia</a>. Adaptació cinematogràfica Alfa Pictures, 2022.</small><small>Pots llegir el relat complet aquí: <a target="_blank" href="https://circulodepoesia.com/2020/12/el-policia-de-las-ratas-cuento-de-roberto-bolano/">El policia de las ratas, Roberto Bolaño</a></small></p>
+
+          <div class="manuscrit" style="background-color: #855e5c;">
+            <p style="color: #efefef;">Morir no és tan senzill com sembla. I encara menys per a un espècimen com aquest que ara jeu de bocaterrosa amb els membres grotescament desllorigats sobre els rajols humits de la cuina.<br>
+              —S'hi ha estat una bona estona.<br>
+              Les paraules del sotsinspector no troben eco i queden enganxades com una tallarina a la paret. El seu ajudant, un passerell vestit de telesèrie, sent el fàstic fet puny aferrat a la gola, s'agafa la panxa amb les mans, tomba la cara i surt corrent a vomitar.</p>
+            <p style="color: #efefef; text-align: right;"><em>Tota la veritat</em>, Núria Cadenes. La Magrana, 2022.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="manuscrit" style="background-color: #f7bf97;">
+            <p style="text-align: right"><em>A ningú.</em></p>
+            <p>El xiscle<br>
+              El xiscle ha ressonat estrident, just al moment que s'han apagat els llums. Un xiscle de mort, exhalat per un coll ple de vida. Un xiscle que ha ferit el tímpan i sacsejat brutalment els vidres dels finestrals.<br>
+              Xiscle expel·lit en un instant d'horror que ha ressonat i retrunyit per tota la casa.<br>
+              Després, res. Tots els convidats, corglaçats, tenen prou feina a escoltar-se el retruc del cor que els vol fugir executant uns bots fantàstics.<br>
+              En aquest moment —que nosaltres qualifiquem de solemne perquè comencem la narració d'uns fets—, del rellotge de bronze i cristall cauen dotze batallades.<br>
+              Mitja nit.<br>
+              L'hora fúnebre.<br>
+              Tètrica.<br>
+              Quan els grans espais siderals exhalen misteri i l'òrbita terrestre giravolta més vertiginosament.<br>
+              Temps enllà, hom s'assabentà que, el volcà de Karsumkala, aquell dia, en aquella hora, havia llançat a l'infinit il·limitat, l'orgull del seu foc i el seu fum: torrents de lava bullidora havien soterrat cl poblat dels lectors dels Vedes i havia aparegut, nascut d'un lotus groc l'antihome.<br>
+              Dominant el silenci sepulcral de l'estança, una veu, que vol ésser serena, pregunta:<br>
+              —Algú té un llumí?<br>
+              Un silenci absolut acull la pregunta.<br>
+              —Qui té un llumí?<br>
+              Enmig dels respirs angoixosos hom copsa fregadís de mans dins les butxaques i una veu que la quietud fa destacadissa exclama amb aire de triomf:<br>
+              —Jo en tinc: però no és llumí: és encenedor.<br>
+              Un llampec —la nit, com escau, és de tempesta desfermada— aclareix prou la cambra perquè el posseïdor de la veu serena pugui abastar, junt amb l'encenedor, una colla de capses de llumins per encetar que, a les palpentes, li són ofrenades mentre el tro esclata profund i ofega una remor propera.<br>
+              La veu que sembla serena crida:<br>
+              —Xun-Li! Res.<br>
+              Altre cop.<br>
+              —Xun-Li!!<br>
+              Silenci.<br>
+              Tot d’una avança la remor d’un trepig de peus llisquívols.<p>
+            <p style="text-align: right"><em>Primeres novel·les - Volum 2</em>, Mercè Rodoreda. Fundació Mercè Rodoreda, 2002-2008</p>
+          </div>
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nHgQNUYhdFo?hl=ca&cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <p><small><em>Tros</em>, Rafael Vallbabona. <a target="_blank" href="https://www.pageseditors.cat/ca/tros.html">Pagès Editors, 2017</a>. Adaptació cinematogràfica Alfa Pictures, 2022.</small><small>Pots llegir, si vols, les primeres pàgines de la novel·la aquí: <a target="_blank" href="https://www.pageseditors.cat/media/docs/9788499758183_L33_23.pdf">Tros, Rafael Vallbona</a></small></p>
+        </div>
+      </div>
+
+      <!-- Aturaaaaaa't -->
+      <div class="row">
+        <div class="col-md-12 single-content" style="padding-bottom: 0;">
+          <div class="panel panel-default panel-alert">
+            <div class="panel-heading">
+              <h3 class="panel-title">Atura’t i reflexiona <span class="glyphicon glyphicon-comment" aria-hidden="true"></span></h3>
+            </div>
+            <div class="panel-body">
+              <p>La violència i el crim formen part de totes les peces del mosaic anterior, però, alto!, s’hi manifesten de manera diferent i cada autor ha elaborat la pròpia obra de manera personal.</p>
+              <p>Què mostren aquestes peces? Hi veus elements temàtics i narratius comuns? Quins? En què divergeixen? Quines catalogaries, doncs, com a produccions de gènere negre? Per què? Quines en deixaries fora? I per què?</p>
+              <p>Torna-hi i observa com ho fan. La llista de les característiques i la taula de l’evolució del gènere negre et serviran de guia d’observació i anàlisi de cada peça.</p>
+              <p>Segurament l’aportació d’algun company et farà descobrir algun detall que t’havia passat per alt i enriqueix la teva visió. Comenta’l perquè entre tots recopileu el màxim nombre d’indicis que permetin arribar a una o altra conclusió.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 single-content" style="padding-bottom: 1em;">
+        <h2>Ús i abús del pacte ficcional</h2>
+
+        <p>Ara que has exercitat una mica la mirada amb relació als patrons genèrics que podem trobar en moltes obres narratives, convé que t’aturis també en una altra qüestió clau en la recepció d’aquestes obres, especialment en la lectura literària: el pacte ficcional.</p>
+
+        <p>Fixa’t en aquestes dues citacions de dos grans lectors -i magnífics autors:</p>
+        <p>
+        </p>
+        <div class="col-md-6">
+          <p>La literatura es invención. La ficción es ficción. Calificar un relato de historia verídica es un insulto al arte y a la verdad. Todo gran escritor es un gran embaucador, como lo es la architramposa Naturaleza.
+          Vladimir Nabokov, Curso de literatura europea
+        </p>
+        </div class="col-md-6">
+        <p>
+          La regla fundamental para abordar un texto narrativo es que el lector acepte, tácitamente, un pacto ficcional con el autor, lo que Coleridge llamaba la suspensión de la incredulidad.
+          Umberto Eco, Seis paseos por los bosques narrativos
+        </p>
+        </div>
+        <div class="col-md-12 single-content" style="padding-bottom: 1em;">
+          <p>Com vas veure en acostar-te a la narració literària tot parant atenció a la construcció del seu inici, quan comencem a llegir, hi ha un llindar per travessar.</p>
+
+          <p>Així, davant dels textos literaris -i dels audiovisuals i d’altra mena de composicions narratives digitals!- cal deixar enrere la necessitat de creure que allò que s’hi narra és real.</p>
+
+          <p>Sabem que darrere de la porta del relat hi ha una història de ficció i que, encara que s’hagi inspirat en la realitat, o sigui realista i versemblant, aquell relat és la creació d’algú que l’ha bastit fent un ús o un altre d’uns determinats temes i arguments, d’acord o no amb uns patrons genèrics i amb un ús intencional dels elements i mecanismes narratius bàsics.</p>
+
+          <p>¿Podem, tanmateix, pensar la realitat a través de la ficció? ¿No és això el que sovint trobem quan ens preguntem per la nostra trajectòria lectora i qui som com a lectors?</p>
+
+          <p>Com a lectors o espectadors, en el nostre dia a dia, sovint descobrim fragments de vida en la ficció, la poesia, les pel·lícules o el teatre. Ens afecten escenes, moments i paraules que ens semblen perfectament captats pels autors, que ens sorprenen per la seva autenticitat, que ens commouen, o ens sacsegen.</p>
+
+          <p>¿Podem, doncs, dir que hi ha narracions que són un mirall de la realitat o més aviat cal dir que llegir literatura, sigui fantàstica o de caire realista, ens pot fer pensar d’una manera especial en el món real i en nosaltres mateixos?
+          <p> Vegem un cas concret:</p>
+
+          <p>¿Davant de la trama d’una sèrie, pel·lícula o novel·la policíaca t’ha astorat el fet que potser podria estar explicant el funcionament del nostre món? ¿O t’ha passat mai que davant d’una notícia has sentit un calfred perquè s’assembla molt a la trama esgarrifosa de l’última sèrie, pel·lícula o novel·la negra de què tothom parla?</p>
+
+          <p>¿És això el que passa davant del true crime i de l’etiqueta “basat en fets reals”?</p>
+
+          <p>El true crime és un gènere narratiu de no-ficció en el qual la història narrada no és una invenció, sinó el relat fidedigne i veraç d’uns fets que han succeït.</p>
+
+          <div class="important" style="background-color: #212121; padding: 1em; margin-bottom: 2em;">
+            Davant del true crime, per tant, no hi pacte ficcional, sinó un pacte de confiança
+          </div>
+
+
+
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Sabies que... <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span></h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="https://grup62cat.cdnstatics2.com/usuaris/libros/fotos/102/m_libros/portada_a-sang-freda_truman-capote_202405061526.jpg" class="img-responsive" style="max-width: 100%; margin-top: 3em; margin-bottom: 6em; box-shadow: 10px 10px 10px;">
+                </div>
+                <div class="col-md-6">
+                  <img src="https://librosdelzorrorojo.com/wp-content/uploads/2017/04/Truman-Capote.jpg" class="img-responsive" style="max-width: 90%; margin-top: 3em; margin-bottom: 6em; margin-right: 2em; box-shadow: 10px 10px 10px;">
+                </div>
+              </div>
+              <p><em>A sang freda és considerat el primer exemple de true crime literari. L’autor, Truman Capote, inspirat per una notícia breu que va llegir casualment a la premsa, va decidir investigar a fons l'assassinat de la família Clutter en una petita comunitat de la Nord-amèrica rural del 1959. Hi va dedicar sis anys de treball.<br>
+                  Capote considerava que A sang freda inaugurava un nou gènere narratiu: la novel·la de no-ficció que combinava elements periodístics i literaris.</em> L’objectiu de l’autor era "portar al periodisme la tècnica de la ficció", és a dir, aplicar-hi les tècniques novel·lístiques.</p>
+
+              <blockquote>
+                <p>“En la novel·la no ficcional, [...] les tècniques no novel·lístiques generen una excitació, intensitat i poder emotiu a què no aspiren la historiografia o la informació ortodoxa, mentre que pel lector la garantia que la història és 'verídica' li atorga una força que cap ficció pot igualar.” David Logde</p>
+              </blockquote>
+
+            </div>
+          </div>
+
+          <div class="panel panel-default panel-alert">
+            <div class="panel-heading">
+              <h3 class="panel-title">Atura’t i reflexiona <span class="glyphicon glyphicon-comment" aria-hidden="true"></span></h3>
+            </div>
+            <div class="panel-body">
+
+              <p>Mira’t aquesta entrevista a Mark O'Connell sobre el seu true crime literari Un rastre de violència:</p>
+
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YSGhDLJlaHQ?hl=ca&cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <p><small>La no-ficció creativa: la frontera borrosa entre ficció i no-ficció. Font : <a href="https://www.ccma.cat/3cat/mark-oconnell-ens-presenta-el-llibre-de-no-ficcio-un-rastre-de-violencia/video/6271081/">Més 324</a></small></p>
+              <p>Comparteix al fòrum les teves reflexions sobre els límits entre la realitat i la ficció i el perquè de la necessitat d’un pacte de confiança quan llegim obres com la seva.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- <div class="row"> -->
+        <!--   <div class="col-md-12"> -->
+        <!--     <div id="magazine"> -->
+        <!--       <div class="hard"> -->
+        <!--         <h2>Mirall trencat</h2> -->
+        <!--         <h3>Mercè Rodoreda</h3> -->
+        <!--       </div> -->
+	    <!--       <div class="hard"></div> -->
+	    <!--       <div><span class="text">Page 1</span></div> -->
+	    <!--       <div><span class="text">Page 2</span></div> -->
+	    <!--       <div><span class="text">Page 3</span></div> -->
+	    <!--       <div><span class="text">Page 4</span></div> -->
+	    <!--       <div><span class="text">Page 5</span></div> -->
+	    <!--       <div><span class="text">Page 6</span></div> -->
+	    <!--       <div><span class="text">Page 7</span></div> -->
+        <!--       <div class="hard"></div> -->
+        <!--       <div class="hard"></div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </div> -->
+
+      </div> <!-- /row -->
+    </main>
+    <footer class="single text-center">
+      <div class="content-footer">
+        <p><a href="5.html">Ves al pas següent del curs</a> </p>
+        <h1 style="color: white">Pas 6. Pendent de títol</h1>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')
+                                                                                                  </script>
+    <script src="../js/vendor/jquery.jpanelmenu.min.js"></script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
+    <script src="../js/vendor/bootstrap-tour.min.js"></script>
+    <script src="../js/vendor/fastclick.min.js"></script>
+    <script src="../js/vendor/turn.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script type="text/javascript">
+      $('#magazine').turn({
+          // gradients: false,
+          acceleration: true,
+          autoCenter: true
+      });
+    </script>
+  </body>
+</html>

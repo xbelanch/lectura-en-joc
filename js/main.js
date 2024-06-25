@@ -114,11 +114,17 @@ var s,
             // Show picture next step at the bottom of the page
             // ©Marc Català 2015
             var url = document.location.pathname;
+            var title = document.title.match(/.*([Pp]rojecte).*/i);
+            if (title == undefined) title = false;
             var regnum = /\/(\d+)\.html/i;
             var num = url.match(regnum);
             console.log(num); // debug only
             if (num[1] && $("html").hasClass("last") == false) {
-                var _n = parseInt(num[1], 10) + 1;
+                if (!title) {
+                    var _n = parseInt(num[1], 10) + 1;
+                } else {
+                    var _n = 1;
+                }
                 var _nextPage = url.replace(regnum, "/" + _n + "\.html");
                 $.ajax({
                     url: _nextPage,

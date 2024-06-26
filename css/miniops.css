@@ -107,7 +107,7 @@ small a:hover {
 }
 
 .fons-pas-6 {
-    background: url(../img/background-header-pas-6.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-6.png) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

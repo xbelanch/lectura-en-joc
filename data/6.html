@@ -67,6 +67,66 @@
       .panel-body {
           background-color: #fcfcfc;
       }
+
+
+      .quote {
+          border-radius: 15px 15px 0 0;
+          -webkit-transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);
+          -moz-transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);
+          opacity: 0;
+          background: #000;
+          padding: 2em;
+          padding-top: 5em;
+      }
+
+      .quote p {
+          text-align: center;
+          color: #efefef;
+          font-family: 'EB Garamond', serif;
+          font-size: 2.3rem;
+          font-weight: 300;
+          line-height: 120%;
+      }
+
+      .quote.active {
+          opacity: 1;
+      }
+
+      img {
+          -webkit-animation: adjustHue 10s infinite;
+          -moz-animation: adjustHue 10s infinite;
+          animation: adjustHue 10s infinite;
+      }
+
+      @-webkit-keyframes adjustHue {
+          50% {
+              -webkit-filter: saturate(150%) hue-rotate(-35deg);
+          }
+      }
+
+      @-moz-keyframes adjustHue {
+          50% {
+              -moz-filter: saturate(150%) hue-rotate(-35deg);
+          }
+      }
+
+      @keyframes adjustHue {
+          50% {
+              filter: saturate(150%) hue-rotate(-35deg);
+          }
+      }
+
+      p.ornament {
+          font-family: 'DavysDingbats', serif;
+          font-size: 10.8rem;
+          color: #903;
+          font-weight: 800;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+      }
+
     </style>
   </head>
   <body>
@@ -112,7 +172,7 @@
       </div>
     </header>
     <!-- /container -->
-    <main class="container">
+    <main class="container background">
       <div class="row">
         <div class="col-md-12 single-content" style="padding-bottom: 1em;">
           <h1 id="second-step">Pas 6. Deixem enrere la realitat</h1>
@@ -262,32 +322,45 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="embed-responsive embed-responsive-16by9">
-            <video
-              id="my-video"
-              class="video-js"
-              controls
-              preload="auto"
-              auto="true"
-              width="768"
-              height="426"
-              poster="MY_VIDEO_POSTER.jpg"
-              data-setup="{}"
-              >
+        <div class="row" style="margin: 0; padding: 0;">
+          <p class="ornament"><strong>&'</strong></p>
+        </div>
 
-              <source src="./videos/teaser.mp4" type="video/mp4" />
-              <source src="./videos/teaser.webm" type="video/webm" />
-              <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider upgrading to a
-                web browser that
-                <a href="https://videojs.com/html5-video-support/" target="_blank"
-                   >supports HTML5 video</a
-                                          >
-              </p>
-            </video>
+        <div class="row">
+          <div class="col-md-12" style="padding: 0;">
+            <div class="quote">
+              <p>La història que revela aquest telèfon és una ficció a fora del seu relat original.</p>
+              <p>I tu, al teu torn, cada vegada que hi juguis crearàs un relat nou...</p>
+              <p>Entraràs en la intimitat d’un personatge, en un temps i un espai on no tot és el que sembla. Hauràs de desvelar el secret que s’amaga darrere la desaparició del Jaume. I darrere de la seva mateixa existència.</p>
+              <p>La primera clau d’accés és: 2 5 0 7</p>
+              <p>Advertiment: Recorda que al món real només és ètic entrar a la vida dels altres per mitjà de la literatura i de l’art.</p>
+            </div>
           </div>
+        <video
+          id="my-video"
+          class="video-js vjs-16-9"
+          controls
+          preload="auto"
+          auto="true"
+          width="1536"
+          height="864"
+          poster="./img/mobil_trencat.png"
+          data-setup="{}"
+          style="margin-bottom: 64px;"
+          >
 
+          <source src="./videos/teaser.mp4" type="video/mp4" />
+          <source src="./videos/teaser.webm" type="video/webm" />
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+               >supports HTML5 video</a
+                                      >
+          </p>
+        </video>
         </div>
       </div>
     </main>
@@ -308,10 +381,19 @@
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     <script src="../js/main.js"></script>
     <script>
+
+      setTimeout( function() {
+          document.querySelector( '.quote' ).className = ( 'quote active' );
+      }, 400 );
+
       var player = document.getElementById("my-video");
       player.addEventListener("ended", function() {
-          //do something here...
-          alert("Ops");
+          //
+          // ChatGPT, please be kind:
+          // https://stackoverflow.com/questions/4907843/open-a-url-in-a-new-tab-and-not-a-new-window
+          //
+          window.open("https://miniops.ioc.cat/lost-phone/", '_blank', 'toolbar=0,location=0,menubar=0')
+              .focus();
       });
     </script>
   </body>

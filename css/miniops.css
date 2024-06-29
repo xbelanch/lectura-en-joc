@@ -64,7 +64,7 @@ small a:hover {
 /* Backgrounds headers*/
 
 .fons-pas-1 {
-    background: url(../img/background-header-pas-1.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-1.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -72,7 +72,7 @@ small a:hover {
 }
 
 .fons-pas-2 {
-    background: url(../img/background-header-pas-2.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-2.jpg) center center no-repeat;
     /*center center no-repeat*/
 
     ;
@@ -83,7 +83,7 @@ small a:hover {
 }
 
 .fons-pas-3 {
-    background: url(../img/background-header-pas-3.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-3.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,7 +91,7 @@ small a:hover {
 }
 
 .fons-pas-4 {
-    background: url(../img/background-header-pas-4.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-4.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -99,7 +99,7 @@ small a:hover {
 }
 
 .fons-pas-5 {
-    background: url(../img/background-header-pas-5.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-5.png) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -115,7 +115,7 @@ small a:hover {
 }
 
 .fons-pas-7 {
-    background: url(../img/background-header-pas-7.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-7.png) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,7 +123,7 @@ small a:hover {
 }
 
 .fons-pas-8 {
-    background: url(../img/background-header-pas-8.jpg) center center no-repeat;
+    background: url(../data/img/background-header-pas-8.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

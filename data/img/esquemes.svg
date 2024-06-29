@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="esquemes.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="0.52604165"
+     inkscape:cx="1559.7624"
+     inkscape:cy="-130.21783"
+     inkscape:window-width="1920"
+     inkscape:window-height="1035"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="419.2569"
+       y="275.69602"
+       width="230.93406"
+       height="108.07391"
+       id="rect3" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="159.68323"
+       height="52.467396"
+       id="rect1" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="173.39412"
+       height="47.359441"
+       id="rect2" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="159.68323"
+       height="52.467396"
+       id="rect4" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="159.68323"
+       height="52.467396"
+       id="rect5" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="173.39412"
+       height="47.359441"
+       id="rect8" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="159.68323"
+       height="52.467396"
+       id="rect9" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="159.68323"
+       height="52.467396"
+       id="rect10" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="472.95944"
+       height="107.16642"
+       id="rect11" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="472.95944"
+       height="107.16642"
+       id="rect12" />
+    <rect
+       x="265.75839"
+       y="436.08706"
+       width="210.40413"
+       height="53.959203"
+       id="rect13" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text1"
+       style="font-weight:bold;font-size:40px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#f9f9f9;stroke-width:6.34961"
+       transform="translate(36.293482,85.41212)"
+       inkscape:export-filename="esquema1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="265.75781"
+         y="463.96289"
+         id="tspan14"><tspan
+           style="fill:#1a1a1a"
+           id="tspan3">Autor</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 412.80471,540 106.46089,0"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       id="text2"
+       style="font-weight:bold;font-size:40px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#f9f9f9;stroke-width:6.34961"
+       transform="translate(487.94566,85.41212)"><tspan
+         x="265.75781"
+         y="463.96289"
+         id="tspan16"><tspan
+           style="fill:#1a1a1a"
+           id="tspan15">Lector</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 642.66342,540 H 749.12431"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       id="text3"
+       style="font-weight:bold;font-size:53.3333px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(2.2344725,0,0,2.2344725,-410.1383,-102.91306)"><tspan
+         x="419.25781"
+         y="315.08149"
+         id="tspan18"><tspan
+           style="font-weight:normal;font-family:Davys;-inkscape-font-specification:Davys"
+           id="tspan17">Y</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text4"
+       style="font-weight:bold;font-size:52.3163px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#aa0000;stroke-width:6.34961"
+       transform="matrix(0.76458011,0,0,0.76458011,327.0714,133.0174)"><tspan
+         x="265.75781"
+         y="472.54581"
+         id="tspan19">Relat</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text5"
+       style="font-weight:bold;font-size:40px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#f9f9f9;stroke-width:6.34961"
+       transform="translate(655.71825,-264.47129)"
+       inkscape:export-filename="esquema2.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="265.75781"
+         y="463.96289"
+         id="tspan21"><tspan
+           style="fill:#1a1a1a"
+           id="tspan20">Autor</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text8"
+       style="font-weight:bold;font-size:40px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect8);display:inline;fill:#f9f9f9;stroke-width:6.34961"
+       transform="translate(1400.2104,-264.47129)"><tspan
+         x="265.75781"
+         y="463.96289"
+         id="tspan23"><tspan
+           style="fill:#1a1a1a"
+           id="tspan22">Lector</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text9"
+       style="font-weight:bold;font-size:52.3163px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect9);display:inline;fill:#aa0000;stroke-width:6.34961"
+       transform="matrix(0.76458011,0,0,0.76458011,1102.9707,-79.601633)"><tspan
+         x="265.75781"
+         y="472.54581"
+         id="tspan24">Relat</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text10"
+       style="font-weight:bold;font-size:52.3163px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect10);display:inline;fill:#aa0000;stroke-width:6.34961"
+       transform="matrix(0.76458011,0,0,0.76458011,952.93234,140.54499)"><tspan
+         x="265.75781"
+         y="525.01261"
+         id="tspan26"><tspan
+           dx="0 38.766338 30.029522 20.351036 20.351044 30.029526 31.965256"
+           id="tspan25">Narrado</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text11"
+       style="font-weight:bold;font-size:52.3163px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect11);display:inline;fill:#aa0000;stroke-width:6.34961"
+       transform="matrix(0.76458011,0,0,0.76458011,883.97663,-161.80753)"><tspan
+         x="265.75781"
+         y="472.54581"
+         id="tspan27">Narrador</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text12"
+       style="font-weight:bold;font-size:52.3163px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect12);display:inline;fill:#aa0000;stroke-width:6.34961"
+       transform="matrix(0.76458011,0,0,0.76458011,1249.7272,-161.80753)"><tspan
+         x="265.75781"
+         y="472.54581"
+         id="tspan28">Narratari</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text13"
+       style="font-weight:bold;font-size:52.3163px;line-height:0.8;font-family:Helvetica75;-inkscape-font-specification:'Helvetica75 Bold';letter-spacing:0px;white-space:pre;shape-inside:url(#rect13);display:inline;fill:#aa0000;stroke-width:6.34961"
+       transform="matrix(0.76458011,0,0,0.76458011,1078.6507,-247.64916)"><tspan
+         x="265.75781"
+         y="472.54581"
+         id="tspan29">Història</tspan></text>
+    <path
+       style="opacity:0.832158;fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-opacity:1"
+       d="M 1243.6277,340.04208 H 1046.6851 V 30.941119 h 199.2237"
+       id="path13"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="opacity:0.832158;fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-opacity:1"
+       d="m 1163.596,221.46536 v 57.79009 h 79.0812"
+       id="path16" />
+    <path
+       style="opacity:0.832158;fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-opacity:1"
+       d="m 1167.398,158.35246 v -57.79009 h 79.0812"
+       id="path17" />
+    <path
+       style="opacity:0.832158;fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-opacity:1"
+       d="m 1528.2059,221.46536 v 57.79009 h -79.0812"
+       id="path18" />
+    <path
+       style="opacity:0.832158;fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-opacity:1"
+       d="m 1527.8257,158.35246 v -57.79009 h -79.0812"
+       id="path19" />
+    <path
+       style="opacity:0.832158;fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-opacity:1"
+       d="m 1524.2137,340.04208 h 121.2832 V 30.941119 h -123.5643"
+       id="path20"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>

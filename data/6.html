@@ -70,7 +70,7 @@
 
 
       .quote {
-          border-radius: 15px 15px 0 0;
+          border-radius: 15px;
           -webkit-transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);
           -moz-transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);
           transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -88,6 +88,27 @@
           font-weight: 300;
           line-height: 120%;
       }
+
+      .quote h2 {
+          text-align: center;
+          color: #efefef;
+          font-family: 'EB Garamond', serif;
+          font-size: 5.3rem;
+          font-weight: 600;
+          line-height: 120%;
+          margin-bottom: 3rem;
+      }
+
+      .quote h2 a {
+          color: #efef00;
+          text-decoration: none;
+          border-bottom: 0 !important;
+      }
+
+      .quote h2 a:hover {
+          color: #efefef;
+      }
+
 
       .quote.active {
           opacity: 1;
@@ -125,6 +146,48 @@
           text-align: center;
           margin: 0;
           padding: 0;
+      }
+
+      .title-block {
+          opacity: 0;
+      }
+      .title-block.animate {
+          animation-name: fade-in-fade-out;
+          animation-delay: initial;
+          animation-timing-function: ease-in;
+          position: absolute;
+      }
+
+     #lostphone {
+         background-color: #000;
+         margin-bottom: 4rem;
+         width: 100%;
+         height: 45vh;
+         background-color: black;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+      .item {
+          color: white;
+          text-align: center;
+      }
+
+      .item .text {
+          font-size: 28px;
+          line-height: 1;
+          margin: 0 0 10px;
+          letter-spacing: 2px;
+      }
+
+      @keyframes fade-in-fade-out {
+          0%, 10%, 100% {
+              opacity: 0;
+          }
+          30%, 90% {
+              opacity: 1;
+          }
       }
 
     </style>
@@ -334,38 +397,60 @@
         </div>
 
         <div class="row">
-          <div class="col-md-12" style="padding: 0;">
-            <div class="quote">
-              <p>La història que revela aquest telèfon és una ficció a fora del seu relat original.</p>
-              <p>I tu, al teu torn, cada vegada que hi juguis crearàs un relat nou...</p>
-              <p>Entraràs en la intimitat d’un personatge, en un temps i un espai on no tot és el que sembla. Hauràs de desvelar el secret que s’amaga darrere la desaparició del Jaume. I darrere de la seva mateixa existència.</p>
-              <p>La primera clau d’accés és: 2 5 0 7</p>
-              <p>Advertiment: Recorda que al món real només és ètic entrar a la vida dels altres per mitjà de la literatura i de l’art.</p>
+          <div class="col-md-12" id="lostphone">
+            <div class="title-block">
+              <div class="item">
+                <p class="text">La història que revela aquest telèfon és una ficció a fora del seu relat original.</p>
+              </div>
             </div>
-          </div>
-        <video
-          id="my-video"
-          class="video-js vjs-16-9"
-          controls
-          preload="auto"
-          auto="true"
-          width="1536"
-          height="864"
-          poster="./img/mobil_trencat.png"
-          data-setup="{}"
-          style="margin-bottom: 64px;"
-          >
+            <div class="title-block">
+              <div class="item">
+                <p class="text">I tu, al teu torn, cada vegada que hi juguis crearàs un relat nou...</p>
+              </div>
+            </div>
+            <div class="title-block">
+              <div class="item">
+                <p class="text">Entraràs en la intimitat d’un personatge, en un temps i un espai on no tot és el que sembla.<br>Hauràs de desvelar el secret que s’amaga darrere la desaparició del Jaume. I darrere de la seva mateixa existència.</p>
+              </div>
+            </div>
+            <div class="title-block">
+              <div class="item">
+                <p class="text">La primera clau d’accés és: 2 5 0 7</p>
+              </div>
+            </div>
+            <div class="title-block">
+              <div class="item">
+                <p class="text">Advertiment: Recorda que al món real només és ètic entrar a la vida dels altres per mitjà de la literatura i de l’art.</p>
+              </div>
+            </div>
+            <div class="title-block">
+              <div class="item">
+                <p class="text"><a target="_blank" href="https://miniops.ioc.cat/lost-phone">Cliqueu l'enllaç per entrar</a></p>
+              </div>
+            </div>
+        <!-- <video -->
+        <!--   id="my-video" -->
+        <!--   class="video-js vjs-16-9" -->
+        <!--   controls -->
+        <!--   preload="auto" -->
+        <!--   auto="true" -->
+        <!--   width="1536" -->
+        <!--   height="864" -->
+        <!--   poster="./img/mobil_trencat.png" -->
+        <!--   data-setup="{}" -->
+        <!--   style="box-shadow: 10px 10px 10px; margin-bottom: 4rem;" -->
+        <!--   > -->
 
-          <source src="./videos/teaser.mp4" type="video/mp4" />
-          <source src="./videos/teaser.webm" type="video/webm" />
-          <p class="vjs-no-js">
-            To view this video please enable JavaScript, and consider upgrading to a
-            web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank"
-               >supports HTML5 video</a
-                                      >
-          </p>
-        </video>
+        <!--   <source src="./videos/teaser.mp4" type="video/mp4" /> -->
+        <!--   <source src="./videos/teaser.webm" type="video/webm" /> -->
+        <!--   <p class="vjs-no-js"> -->
+        <!--     To view this video please enable JavaScript, and consider upgrading to a -->
+        <!--     web browser that -->
+        <!--     <a href="https://videojs.com/html5-video-support/" target="_blank" -->
+        <!--        >supports HTML5 video</a -->
+        <!--                               > -->
+        <!--   </p> -->
+        <!-- </video> -->
         </div>
       </div>
     </main>
@@ -386,20 +471,52 @@
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     <script src="../js/main.js"></script>
     <script>
+      const blocks = document.querySelectorAll('.title-block');
+      function addAnimation (elem, index) {
+          var delay, duration, fixedIndex;
+          duration = 4;
+          fixedIndex = index + 1;
+          delay = (fixedIndex) * duration;
 
-      setTimeout( function() {
-          document.querySelector( '.quote' ).className = ( 'quote active' );
-      }, 400 );
+          elem.classList.add('animate');
+          elem.style.animationDelay = `${delay}s`
+          elem.style.animationDuration = `${duration}s`;
+          fixedIndex === 1
+              ? elem.style.animationDelay = `0s`
+              : elem.style.animationDelay = `${delay - duration}s`
+      }
 
-      var player = document.getElementById("my-video");
-      player.addEventListener("ended", function() {
+      blocks.forEach((element, index) => {
+          addAnimation(element, index);
+      });
+
+      // setTimeout( function() {
+      //     document.querySelector( '.quote' ).className = ( 'quote active' );
+      // }, 400 );
+
+      // var player = document.getElementById("my-video");
+      // player.addEventListener("ended", function() {
           //
           // ChatGPT, please be kind:
           // https://stackoverflow.com/questions/4907843/open-a-url-in-a-new-tab-and-not-a-new-window
           //
-          window.open("https://miniops.ioc.cat/lost-phone/", '_blank', 'toolbar=0,location=0,menubar=0')
-              .focus();
-      });
+          // const elementToShow = document.getElementById("mobil-trencat");
+          // const elementToFade = document.getElementById("my-video");
+          // elementToFade.onanimationend = (e) => {
+          //     if (e.target.classList.contains('fade-out')) {
+          //         elementToFade.parentNode.removeChild(elementToFade);
+          //     }
+          // };
+          // // To fade away:
+          // elementToFade.classList.add('fade-out', function(){
+          //     // To show
+          //     elementToShow.classList.remove('hide');
+          //     elementToShow.classList.add('fade-in');
+          // });
+
+          // window.open("https://miniops.ioc.cat/lost-phone/", '_blank', 'toolbar=0,location=0,menubar=0')
+          //     .focus();
+      // });
     </script>
   </body>
 </html>

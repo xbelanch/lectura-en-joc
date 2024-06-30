@@ -148,8 +148,9 @@
           padding: 0;
       }
 
+
       .title-block {
-          opacity: 0;
+          opacity: 1;
       }
       .title-block.animate {
           animation-name: fade-in-fade-out;
@@ -158,27 +159,18 @@
           position: absolute;
       }
 
-     #lostphone {
-         background-color: #000;
-         margin-bottom: 4rem;
-         width: 100%;
-         height: 45vh;
-         background-color: black;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-     }
-
       .item {
-          color: white;
+          color: #2c2c2c;
           text-align: center;
       }
 
       .item .text {
-          font-size: 28px;
-          line-height: 1;
+      font-family: 'EB Garamond', serif;
+
+      font-size: 28px;
+      line-height: 1;
           margin: 0 0 10px;
-          letter-spacing: 2px;
+          letter-spacing: 1px;
       }
 
       @keyframes fade-in-fade-out {
@@ -395,62 +387,39 @@
         <div class="row" style="margin: 0; padding: 0;">
           <p class="ornament"><strong>&'</strong></p>
         </div>
-
         <div class="row">
-          <div class="col-md-12" id="lostphone">
-            <div class="title-block">
-              <div class="item">
-                <p class="text">La història que revela aquest telèfon és una ficció a fora del seu relat original.</p>
+          <div class="col-md-12">
+              <div class="title-block">
+                <div class="item">
+                  <p class="text">La història que revela aquest telèfon és una ficció a fora del seu relat original.</p>
+                </div>
               </div>
-            </div>
-            <div class="title-block">
-              <div class="item">
-                <p class="text">I tu, al teu torn, cada vegada que hi juguis crearàs un relat nou...</p>
+              <div class="title-block">
+                <div class="item">
+                  <p class="text">I tu, al teu torn, cada vegada que hi juguis crearàs un relat nou...</p>
+                </div>
               </div>
-            </div>
-            <div class="title-block">
-              <div class="item">
-                <p class="text">Entraràs en la intimitat d’un personatge, en un temps i un espai on no tot és el que sembla.<br>Hauràs de desvelar el secret que s’amaga darrere la desaparició del Jaume. I darrere de la seva mateixa existència.</p>
+              <div class="title-block">
+                <div class="item">
+                  <p class="text">Entraràs en la intimitat d’un personatge, en un temps i un espai on no tot és el que sembla.<br>Hauràs de desvelar el secret que s’amaga darrere la desaparició del Jaume. I darrere de la seva mateixa existència.</p>
+                </div>
               </div>
-            </div>
-            <div class="title-block">
-              <div class="item">
-                <p class="text">La primera clau d’accés és: 2 5 0 7</p>
+              <div class="title-block">
+                <div class="item">
+                  <p class="text">La primera clau d’accés és: 2 5 0 7</p>
+                </div>
               </div>
-            </div>
-            <div class="title-block">
-              <div class="item">
-                <p class="text">Advertiment: Recorda que al món real només és ètic entrar a la vida dels altres per mitjà de la literatura i de l’art.</p>
+              <div class="title-block">
+                <div class="item">
+                  <p class="text"><strong>Advertiment:</strong><br>Recorda que al món real només és ètic entrar a la vida dels altres per mitjà de la literatura i de l’art.</p>
+                </div>
               </div>
-            </div>
-            <div class="title-block">
-              <div class="item">
-                <p class="text"><a target="_blank" href="https://miniops.ioc.cat/lost-phone">Cliqueu l'enllaç per entrar</a></p>
+              <div class="title-block" style="margin-top: 3rem; margin-bottom: 10rem;">
+                <div class="item">
+                  <p class="text"><a target="_blank" href="https://miniops.ioc.cat/lost-phone">Cliqueu  per entrar-hi</a></p>
+                </div>
               </div>
-            </div>
-        <!-- <video -->
-        <!--   id="my-video" -->
-        <!--   class="video-js vjs-16-9" -->
-        <!--   controls -->
-        <!--   preload="auto" -->
-        <!--   auto="true" -->
-        <!--   width="1536" -->
-        <!--   height="864" -->
-        <!--   poster="./img/mobil_trencat.png" -->
-        <!--   data-setup="{}" -->
-        <!--   style="box-shadow: 10px 10px 10px; margin-bottom: 4rem;" -->
-        <!--   > -->
-
-        <!--   <source src="./videos/teaser.mp4" type="video/mp4" /> -->
-        <!--   <source src="./videos/teaser.webm" type="video/webm" /> -->
-        <!--   <p class="vjs-no-js"> -->
-        <!--     To view this video please enable JavaScript, and consider upgrading to a -->
-        <!--     web browser that -->
-        <!--     <a href="https://videojs.com/html5-video-support/" target="_blank" -->
-        <!--        >supports HTML5 video</a -->
-        <!--                               > -->
-        <!--   </p> -->
-        <!-- </video> -->
+          </div>
         </div>
       </div>
     </main>
@@ -471,6 +440,7 @@
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     <script src="../js/main.js"></script>
     <script>
+      /*
       const blocks = document.querySelectorAll('.title-block');
       function addAnimation (elem, index) {
           var delay, duration, fixedIndex;
@@ -486,37 +456,31 @@
               : elem.style.animationDelay = `${delay - duration}s`
       }
 
-      blocks.forEach((element, index) => {
-          addAnimation(element, index);
-      });
+      var isInViewport = function(elem) {
+          var distance = elem.getBoundingClientRect();
+          return (
+              distance.top >= 0 &&
+                  distance.left >= 0 &&
+                  distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                  distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+      };
 
-      // setTimeout( function() {
-      //     document.querySelector( '.quote' ).className = ( 'quote active' );
-      // }, 400 );
+      var findMe = document.querySelectorAll('.single');
+      var firsTime = false;
 
-      // var player = document.getElementById("my-video");
-      // player.addEventListener("ended", function() {
-          //
-          // ChatGPT, please be kind:
-          // https://stackoverflow.com/questions/4907843/open-a-url-in-a-new-tab-and-not-a-new-window
-          //
-          // const elementToShow = document.getElementById("mobil-trencat");
-          // const elementToFade = document.getElementById("my-video");
-          // elementToFade.onanimationend = (e) => {
-          //     if (e.target.classList.contains('fade-out')) {
-          //         elementToFade.parentNode.removeChild(elementToFade);
-          //     }
-          // };
-          // // To fade away:
-          // elementToFade.classList.add('fade-out', function(){
-          //     // To show
-          //     elementToShow.classList.remove('hide');
-          //     elementToShow.classList.add('fade-in');
-          // });
-
-          // window.open("https://miniops.ioc.cat/lost-phone/", '_blank', 'toolbar=0,location=0,menubar=0')
-          //     .focus();
-      // });
+      window.addEventListener('wheel', function(event) {
+          findMe.forEach(element => {
+              if (isInViewport(element) && !firsTime) {
+                  console.log("Start animation");
+                  firsTime = true;
+                  blocks.forEach((element, index) => {
+                      addAnimation(element, index);
+                  });
+              }
+          });
+          }, false);
+          */
     </script>
   </body>
 </html>
